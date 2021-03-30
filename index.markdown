@@ -1,8 +1,14 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+---
 # Welcome to my blog
 
-Over the time, I noticed myself more than once having "this could be cool to write in a blog about" moments from time to time, except... I didn't have a blog.
+From time to time, I have been noticing myself having "this could be cool to write about in a blog" moments, except... I didn't have a blog.
 
-So to fix that omission, with the help of github pages, I start my own blog for different, mostly tech-related, notes, memos and things like that.
+Therefore, to fix this omission, with the help of github pages, I start my own blog for different, mostly tech-related, notes, memos and things like that.
 
 I specifically chose [github pages](https://pages.github.com/) with static site generator ([jekyll](https://jekyllrb.com/)) for this blog to be able to last for years (and decades? centuries?) without much attendance.
 
@@ -12,4 +18,6 @@ Well, for now, that's it. The blog is running, the domain is configured, and now
 
 Until then, stay tuned!
 
-Sergey
+Sergey,
+
+2021-03-30
