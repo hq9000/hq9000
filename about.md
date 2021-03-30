@@ -1,4 +1,6 @@
-# About me
+---
+title: About me
+---
 
 Hi, I'm Sergey, a software dev from Russia.
 
