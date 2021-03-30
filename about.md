@@ -1,7 +1,5 @@
-# Something about
+# About me
 
-## h2
+Hi, I'm Sergey, a software dev from Russia.
 
-blabla
-
-![image](https://user-images.githubusercontent.com/21345604/112794423-890c8200-906f-11eb-98f8-0202a08017f1.png)
+![me](https://user-images.githubusercontent.com/21345604/112950841-6350ad00-9143-11eb-8185-1e53370df377.jpg)
