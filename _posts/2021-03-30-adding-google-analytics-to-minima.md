@@ -1,0 +1,16 @@
+It has turned out to be ridiculously easy to add a google analytics tag to my blog. So easy that it actually deserves to be the first blog post.
+
+I'm using very standard recommended github pages setup with `jekyll` running with a default `minima` theme.
+
+In my case, all I had to do was adding this line: 
+
+```
+google_analytics: XXXXXX
+```
+
+into your _config.yml, where XXXXX is my tracking code.
+
+The hardest part was to find that tracking code in my GA account. In the end, I found it in "Admin" area, where it's called `Measurement ID`:
+
+![image](https://user-images.githubusercontent.com/21345604/112961116-bd567000-914d-11eb-90ec-4b55642bc714.png)
+
