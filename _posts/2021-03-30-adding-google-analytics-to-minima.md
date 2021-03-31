@@ -8,7 +8,7 @@ In my case, all I had to do was adding this line:
 google_analytics: XXXXXX
 ```
 
-into your _config.yml, where XXXXX is my tracking code.
+into `_config.yml`, where XXXXX is my tracking code. [See it here](https://github.com/hq9000/hq9000/blob/6164401661334373e9584e5524bd38b8400c7183/_config.yml#L28) 
 
 The hardest part was to find that tracking code in my GA account. In the end, I found it in "Admin" area, where it's called `Measurement ID`:
 
