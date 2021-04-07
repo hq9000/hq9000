@@ -1,6 +1,6 @@
 It's widely known that Python is perfect (among other things) for writing a one-off disposable scripts for doing dirty tasks.
 
-Today I found myself in need of downloading a bunch of files (sever hundreds) from the internet and saving them locally. I had a two columns table in google docs which I copy-pasted into a `txt` file (column delimiter turned into a `\t` symbol).
+Today I found myself in need of downloading a bunch of files (several hundreds) from the internet and saving them locally. I had a two columns table in google docs which I copy-pasted into a `txt` file (column delimiter turned into a `\t` symbol).
 
 Instead of doing it manually, I chose to write a short script. 
 
