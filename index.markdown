@@ -2,7 +2,7 @@
 layout: home
 title: Welcome to my blog
 ---
-From time to time, I have been noticing myself having "this could be cool to write about in a blog" moments, except... I didn't have a blog.
+From time to time I have been noticing myself having "this could be cool to write about in a blog" moments, except... I didn't have a blog.
 
 Therefore, to fix this omission, with the help of github pages, I start my own blog for different, mostly tech-related, notes, memos and things like that.
 
