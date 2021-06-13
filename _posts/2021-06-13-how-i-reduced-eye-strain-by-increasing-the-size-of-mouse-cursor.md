@@ -3,10 +3,12 @@ Sometimes, I find myself in situations where my 14 inch laptop screen is all I h
 
 The eye strain is way higher and productivity drops significantly just because of a tiny screen I have to use. Leterally, it is virtually impossible for me to work for more than 1-2 hours straight with such setup. Until recently, I was thinking it's inevitable and cannot be solved.
 
-However, I think I've identified the main culprit of the elevated eye strain and overall fatigue: **a small mouse cursor**.
+However, I think I've managed to identify the sigle most important culprit of the elevated eye strain and overall fatigue: **a small mouse cursor**.
 
-Surprisingly, the most inconvenience seemed to be coming from visually locating a little mouse arrow. 
-When it's not moving, it's almost invisible. When it does move, it's not clearly readable either. 
+It took a bit of self-observation but, surprisingly, the most inconvenience seemed to be coming from visually locating a little mouse arrow, not so much due to smaller fonts and so on.
+
+Really, when the cursor is not moving, it's almost invisible. When it does move, it's not clearly readable either and it's always an effort to locate it. 
+How often do you make youself look at this small arrow? Each time, a small inconvenience adds to the overall less-than ideal experience.
 
 Solution, therefore, was simply to increase its size. Being in Ubuntu 18.04 in Gnome 3, I did it through `dconf Editor` utility:
 
