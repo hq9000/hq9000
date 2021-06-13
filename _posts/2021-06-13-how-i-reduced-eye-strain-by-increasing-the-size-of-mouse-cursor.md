@@ -1,5 +1,5 @@
 I prefer to work on a wide screen. The bigger the better, in fact. Unfortunately, it's not always an option.
-Sometimes, I find myself in situations where my 14 inch laptop screen is all I have, e.g. when I'm lying on a sofa or am on the road.
+Sometimes, I find myself in situations where my 14 inch laptop screen is all I have, e.g. when I'm lying on a sofa or am on the go.
 
 The eye strain is way higher and productivity drops significantly just because of a tiny screen I have to use. Leterally, it is virtually impossible for me to work for more than 1-2 hours straight with such setup. Until recently, I was thinking it's inevitable and cannot be solved.
 
@@ -8,7 +8,7 @@ However, I think I've managed to identify the sigle most important culprit of th
 It took a bit of self-observation but, surprisingly, the most inconvenience seemed to be coming from visually locating a little mouse arrow, not so much due to smaller fonts and so on.
 
 Really, when the cursor is not moving, it's almost invisible. When it does move, it's not clearly readable either and it's always an effort to locate it. 
-How often do you make yourself look at this small arrow? When it's too smaell, each time a small inconvenience adds to the overall less-than ideal experience.
+How often do you make yourself look at this small arrow? When it's too small, each time a small inconvenience adds to the overall less-than-ideal experience.
 
 Solution, therefore, was simply to increase its size. Being in Ubuntu 18.04 in Gnome 3, I did it through `dconf Editor` utility:
 
