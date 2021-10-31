@@ -1,0 +1,115 @@
+% --------------------------------------------------------------------------
+% Template for DMRN 2021 paper; to be used with:
+%          dmrn2021.sty  - DMRN 2021 LaTeX style file
+% Adapted from dcase2016.sty
+% --------------------------------------------------------------------------
+
+\documentclass{article}
+\usepackage{caption}
+\usepackage{times,amsmath,graphicx,url,dmrn2020}
+\usepackage{indentfirst}
+\setlength{\parskip}{0.5em}
+
+% smaller font size for captions
+\captionsetup[figure]{font=footnotesize,labelfont=footnotesize}
+\captionsetup[table]{font=footnotesize,labelfont=footnotesize}
+
+% reduce blank space after figures
+\setlength{\belowcaptionskip}{-10pt}
+
+% Example definitions.
+% --------------------
+\def\defeqn{\stackrel{\triangle}{=}}
+\newcommand{\symmat}[1]{{\mbox{\boldmath $#1$}}}
+
+% roman numbering of sections
+\renewcommand{\thesection}{\Roman{section}} 
+
+% Title.
+% --------------------
+\title{Building style-aware neural wavetable synthesizers using simplified differential DSP approach}
+
+% Single addresses (uncomment and modify for single-address case).
+% --------------------
+% \oneauthor
+% {Given-name Family-name(Surname)\sthanks{Research supported by ABC Foundation.}}
+% {Department/Research Institute, University, Country}
+% {john@fictional.edu}
+
+% Two addresses
+% --------------------
+\twoauthors
+ {Sergey Grechin}
+    {Infinite Album}
+    {grechin.sergey@gmail.com}
+ {Given-name Family-name (Surname)}
+    {Department/Research Institute, University, Country}
+    
+\begin{document}
+%\ninept
+\tenpt
+\maketitle
+
+\begin{sloppy}
+\begin{abstract}
+This document is a template for \LaTeX\ for the submission of a one-page paper to DMRN. 
+\end{abstract}
+
+\begin{keywords}
+One, two, three, four, five
+\end{keywords}
+
+\section{Headings}
+\label{sec:headings}
+This template provides authors with most of the formatting specifications needed for preparing electronic versions of their papers. A brief abstract (containing text only) must also be entered in the above ``Abstract'' headed text box.
+
+Headings may be used as required. Please adopt the Small-Caps heading style. References and figures may be included if necessary. But the overall paper cannot exceed the one page limit. Do not change the margins, column widths, font sizes or line spacing to squeeze more text into the page. Use \textit{italics} for emphasis; do not underline. 
+
+\section{Others}
+\label{sec:others}
+Define abbreviations and acronyms the first time they are used in the text, even after they have been defined in the abstract. Do not use abbreviations in the title or heads unless they are unavoidable. Use either SI (MKS) or CGS as primary units (SI units are encouraged).
+
+%You will need to determine whether or not your equation should be typed using either the Times New Roman or the Symbol font (please no other font). To create multileveled equations, it may be necessary to treat the equation as a graphic.%
+Equation numbers, within parentheses, are to position flush right, as in (1). Italicize Roman symbols for quantities and variables, but not Greek symbols. Use a long dash rather than a hyphen for a minus sign. Be sure that the symbols in your equation have been defined before or immediately following the equation.
+\begin{equation}
+\alpha + \beta = \gamma
+\end{equation}
+
+Figure captions should be below the figures; table heads should appear above the tables. Insert figures and tables after they are cited in the text. Use the abbreviation “Fig. 1”, even at the beginning of a sentence.
+
+Use the caption package to declare smaller font sizes for figure and table labels. Use words rather than symbols or abbreviations when writing Figure axis labels to avoid confusing the reader. If including units in the label, present them within parentheses. Do not label axes only with units. In the example, write “Magnetization (A/m)”, not just “A/m”. Do not label axes with a ratio of quantities and units. For example, write “Temperature (K)”, not “Temperature/K.”
+
+% Below is an example of how to insert images and how to create tables. 
+% -------------------------------------------------------------------------
+\begin{table}[t]
+    \centering
+    \caption{Table Type Styles.}
+    \begin{tabular}{ |c|c|c| } \hline
+    \multicolumn{3}{|c|}{\textbf{Table Head}} \\ \hline
+    \textbf{\textit{Table column subhead}} & \textbf{\textit{Subhead}} & \textbf{\textit{Subhead}}\\ \hline
+    {More table copy} & {} & {} \\ \hline
+    \end{tabular}
+    \label{modules}
+\end{table}
+
+\begin{figure}[t]
+  \centering
+  \centerline{\includegraphics[scale=0.5]{fig1a}}
+  \caption{Example of a figure with experimental results.}
+  \label{fig:results}
+\end{figure}
+
+\section{References}
+List and number all bibliographical references at the end of the paper. The references should be numbered in order of appearance in the document. When referring to them in the text, type the corresponding reference number in square brackets as shown at the end of this sentence \cite{cJones2003, eWilliams1999}. For \LaTeX\ users, the use of the BibTEX style  file  \texttt{IEEEtran.bst} is  recommended,  which  is  included  in  the \LaTeX\ paper kit available from the DMRN 2020 website \cite{dmrn2021}.
+
+
+% -------------------------------------------------------------------------
+% Either list references using the bibliography style file IEEEtran.bst
+\LaTeX{} \cite{latex2e}
+\bibliographystyle{IEEEtran}
+{\footnotesize\bibliography{refs}}
+
+\bibliography{refs}
+
+\end{sloppy}
+\end{document}
