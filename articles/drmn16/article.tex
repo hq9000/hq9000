@@ -94,16 +94,22 @@ CC - continuous controller
   \label{fig:generated_waveform}
 \end{figure}
 
-List and number all bibliographical references at the end of the paper. The references should be numbered in order of appearance in the document. When referring to them in the text, type the corresponding reference number in square brackets as shown at the end of this sentence \cite{cJones2003}. 
 
-The preferred spelling of ``acknowledgment'' is without an “e” after the “g”. Avoid ``One of us (R. B. G.) thanks''; try ``R. B. G. thanks''. Put sponsor acknowledgments in the footnote. \cite{IEEEPDFSpec}
+
+List and number \cite{IEEEPDFSpec} all bibliographical references at the end of the paper. The references should be numbered in order of appearance in the document. When referring to them in the text, type the corresponding reference number in square brackets as shown at the end of this sentence .
+
+The preferred spelling of ``acknowledgment'' is without an “e” after the “g”. Avoid ``One of us (R. B. G.) thanks''; try ``R. B. G. thanks''. Put sponsor acknowledgments in the footnote.
+
+
 
 % 
 % ------------------------------------------------------------
 % Either list references using the bibliography style file IEEEtran.bst
 
-\bibliographystyle{plain} 
-\bibliography{refs}
+\bibliographystyle{IEEEtran}
+{\footnotesize\bibliography{refs}}
+
+% \bibliography{refs}
 
 \end{sloppy}
 \end{document}
