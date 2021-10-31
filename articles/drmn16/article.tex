@@ -52,33 +52,32 @@
 
 \begin{sloppy}
 \begin{abstract}
-We explore how simplified differential DSP approach can be used to build realistically sounding virtual MIDI-controllable synthesizers. The simplification involves directly using  MIDI data as input to the DDSP decoder. On top of that, we show how  incorporating additional style-based and temporal channels can be used to imitate various aspects of performance and improve realism.  We further demonstrate the results of applying the approach to the task of modelling the sound of electric guitar. The presented results were obtained with a model trained on less than 12 minutes of manually MIDI-annotated audio. The source code is released along with the prepared dataset.
+We explore how simplified differential DSP approach can be used to build realistically sounding virtual MIDI-controllable monophonic synthesizers. The simplification involves directly using  MIDI data as input to the DDSP decoder. On top of that, we show how  incorporating additional style-based and temporal channels can be used to imitate various aspects of performance and improve realism.  We further demonstrate the results of applying the approach to the task of modelling the sound of electric guitar. The presented results were obtained with a model trained on less than 12 minutes of manually MIDI-annotated audio. The source code is released along with the prepared dataset.
 \end{abstract}
 
 \begin{keywords}
 Deep Learning, DDSP, virtual synthesizers, MIDI
 \end{keywords}
 
-\section{Headings}
-\label{sec:headings}
-This template provides authors with most of the formatting specifications needed for preparing electronic versions of their papers. A brief abstract (containing text only) must also be entered in the above ``Abstract'' headed text box.
+\section{Model architecture and inputs}
+\label{sec:architecture_and_inputs}
 
-Headings may be used as required. Please adopt the Small-Caps heading style. References and figures may be included if necessary. But the overall paper cannot exceed the one page limit. Do not change the margins, column widths, font sizes or line spacing to squeeze more text into the page. Use \textit{italics} for emphasis; do not underline. 
+The model was built on top of \cite{ddsp_simplified_repo} which in turn is a simplified version of original DDSP design \cite{ddsp}. In contrast to the original implementation, in our model audio is not directly used to produce inputs to the decoder. 
+Instead, we use MIDI annotations to heurustically generate fundamental frequency curve (F0), loudness, additional timing signals ("distance from onset" , "distance to offset") and arbitrary CC (continuous controller) values. CC values are used to capture vairious performance characteristics such as "openness" - the degree of how guitar string is muted while plucking.
 
-\section{Others}
-\label{sec:others}
-Define abbreviations and acronyms the first time they are used in the text, even after they have been defined in the abstract. Do not use abbreviations in the title or heads unless they are unavoidable. Use either SI (MKS) or CGS as primary units (SI units are encouraged).
+Additional inputs are passed through dedicated stacks of dense layers before being concatenated with the tranditional DDSP decoder inputs.
 
-%You will need to determine whether or not your equation should be typed using either the Times New Roman or the Symbol font (please no other font). To create multileveled equations, it may be necessary to treat the equation as a graphic.%
-Equation numbers, within parentheses, are to position flush right, as in (1). Italicize Roman symbols for quantities and variables, but not Greek symbols. Use a long dash rather than a hyphen for a minus sign. Be sure that the symbols in your equation have been defined before or immediately following the equation.
+\section{Dataset and results}
+\label{sec:dataset_and_results}
 
-Use the caption package to declare smaller font sizes for figure and table labels. Use words rather than symbols or abbreviations when writing Figure axis labels to avoid confusing the reader. If including units in the label, present them within parentheses. Do not label axes only with units. In the example, write “Magnetization (A/m)”, not just “A/m”. Do not label axes with a ratio of quantities and units. For example, write “Temperature (K)”, not “Temperature/K.”
+For training, 12 minutes of playing chromatic scales on an electric guitar  were used. Midi annotations were made manually with CC55 used to represent open (127) and muted (1) sound. Velocity values were obtained using A-weighted loudness-based approach proposed in \cite{control-synthesis}. We encorage the reader to visit the online supplement page at  to listen to the generated examples and access additional resources such as the source code and the dataset.
 
+Future research. List and number all bibliographical references at the end of the paper. The references should be numbered in order of appearance in the document. When referring to them in the text.
 
 \begin{figure}[t]
   \centering
   \centerline{\includegraphics[scale=0.4]{components}}
-  \caption{Componenets of the model. The unfilled blocks represent the original DDSP design. 
+  \caption{Componenets of the model. The white blocks represent the componements of original DDSP design \cite{ddsp}. 
 MLP - Multilayer perceptron, 
 DFO - distance from onset, 
 DTO - distance to offset,
@@ -90,15 +89,10 @@ CC - continuous controller
 \begin{figure}[t]
   \centering
   \centerline{\includegraphics[scale=0.32]{generated_waveform}}
-  \caption{Waveforms generated on C-5 for two MIDI notes with closed and open sound.}
+  \caption{Waveforms generated on C-5 for \cite{ddsp} two MIDI notes with closed and open sound. This example demonstrates that the model has succeeded in learning temporal characteristics of the guitar sound, including the modelling of initial transient.}
   \label{fig:generated_waveform}
 \end{figure}
 
-
-
-List and number \cite{IEEEPDFSpec} all bibliographical references at the end of the paper. The references should be numbered in order of appearance in the document. When referring to them in the text, type the corresponding reference number in square brackets as shown at the end of this sentence .
-
-The preferred spelling of ``acknowledgment'' is without an “e” after the “g”. Avoid ``One of us (R. B. G.) thanks''; try ``R. B. G. thanks''. Put sponsor acknowledgments in the footnote.
 
 
 
@@ -110,6 +104,8 @@ The preferred spelling of ``acknowledgment'' is without an “e” after the “
 {\footnotesize\bibliography{refs}}
 
 % \bibliography{refs}
+% how to deal with bibliography
+% https://www.overleaf.com/learn/latex/Bibliography_management_with_bibtex
 
 \end{sloppy}
 \end{document}
