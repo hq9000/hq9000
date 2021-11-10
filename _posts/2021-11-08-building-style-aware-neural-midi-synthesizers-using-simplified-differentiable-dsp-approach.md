@@ -50,3 +50,7 @@ The dataset consists of:
 - the audio in mp3 format
 - annotation as a MIDI file
 - Reaper project containing both audio and MIDI
+
+### Equipment used to create the dataset
+
+![image](https://user-images.githubusercontent.com/21345604/141061843-cea3f867-95bd-404e-a830-563f4c69ec6c.png)
