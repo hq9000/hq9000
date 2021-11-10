@@ -2,7 +2,9 @@
 title: About me
 ---
 
-Hi, I'm Sergey Grechin, a yet another tech guy and software developer from Russia.
+Hi, I'm Sergey Grechin, a yet another tech guy, software developer and machine learning practitioner from Russia.
+
+I'm also a [hobbyist musician](https://www.beatport.com/artist/clipsandpatterns/625124).
 
 It's me in 2020:
 
