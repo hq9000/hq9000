@@ -4,6 +4,14 @@ permalink: /neural_synthesizers_with_simplified_ddsp.html
 
 _this page is an online supplement for an article **"Building style-aware neural MIDI synthesizers using simplified differentiable DSP approach"**_
 
+## Talk
+
+A talk on [DMRN+16](https://www.qmul.ac.uk/dmrn/dmrn16/) conference:
+
+<iframe width="1193" height="671" src="https://www.youtube.com/embed/ZpsLYAyzVx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Here you can download slides and the abstract.
+
 ## Abstract
 We explore how simplified differentiable DSP approach can be used to build realistically sounding virtual MIDI-controllable monophonic synthesizers. The simplification involves directly using  MIDI data as input to the DDSP decoder. On top of that, we show how  incorporating additional style-based and temporal channels can be used to imitate various aspects of performance and improve realism.  We further demonstrate the results of applying the approach to the task of modelling the sound of electric guitar. The presented results were obtained with a model trained on less than 12 minutes of manually MIDI-annotated audio. The source code is released along with the prepared dataset.
 
