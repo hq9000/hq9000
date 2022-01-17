@@ -4,6 +4,13 @@ permalink: /neural_synthesizers_with_simplified_ddsp.html
 
 _this page is an online supplement for an article **"Building style-aware neural MIDI synthesizers using simplified differentiable DSP approach"**_
 
+## Authors
+
+Sergey Grechin,
+Ryan Groves
+
+[@Infinite Album](https://infinitealbum.io/)
+
 ## Talk
 
 A talk on the [DMRN+16](https://www.qmul.ac.uk/dmrn/dmrn16/) conference:
