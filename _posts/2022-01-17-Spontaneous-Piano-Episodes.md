@@ -2,9 +2,6 @@
 title: Sponetaneous Piano Episodes by ClipsAndPatterns
 ---
 
-![image](https://user-images.githubusercontent.com/21345604/149710350-398668c7-6a2a-4efc-a265-c08429932027.png)
-
-
 With [a friend](https://vk.com/id4908237) who's an owner of an indie 
 digital-only recording label, we've recently released my album consisting of seven
 live recorded piano improvisations, named "Spontaneous Piano Episodes".
@@ -17,4 +14,5 @@ Available, well, everywhere, including:
 
 Feel free to cast your likes!
 
+![image](https://user-images.githubusercontent.com/21345604/149710350-398668c7-6a2a-4efc-a265-c08429932027.png)
 
