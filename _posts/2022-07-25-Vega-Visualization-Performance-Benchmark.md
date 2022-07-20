@@ -1,3 +1,7 @@
+---
+title: Vega Visualization Performance benchmark
+---
+
 ## Abstract (TLDR)
 
 Vega is a visualisation grammar (a language) and a runtime for server- and client-side visualizations. A live benchmark showing client-side performance of Vega on differently sized datasets is presented. Vega is shown to scale well to up to 5k datapoints. A survey on possible ways to overcome scaling issues is provided.
