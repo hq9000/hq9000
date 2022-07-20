@@ -1,0 +1,69 @@
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+</head>
+<body>
+<h1></h1>
+<table>
+    
+        <tr>
+            <td>data_format</td>
+            <td>CSV</td>
+        </tr>
+    
+        <tr>
+            <td>experiment_name</td>
+            <td>05</td>
+        </tr>
+    
+        <tr>
+            <td>height</td>
+            <td>500</td>
+        </tr>
+    
+        <tr>
+            <td>num_attributes</td>
+            <td>2</td>
+        </tr>
+    
+        <tr>
+            <td>num_categories</td>
+            <td>14</td>
+        </tr>
+    
+        <tr>
+            <td>num_points</td>
+            <td>1000</td>
+        </tr>
+    
+        <tr>
+            <td>renderer</td>
+            <td>CANVAS</td>
+        </tr>
+    
+        <tr>
+            <td>width</td>
+            <td>500</td>
+        </tr>
+    
+</table>
+
+<a href="index.html">Back to index</a>
+<div id="view"></div>
+<script type="text/javascript">
+    var view;
+
+    fetch('specs/05_points-1000_format-csv_categories-14_attributes-2_renderer-canvas_spec.json' )
+        .then(res => res.json())
+        .then(spec => render(spec))
+        .catch(err => console.error(err));
+
+    function render(spec) {
+        view = new vega.View(vega.parse(spec), {
+            renderer: 'canvas',  // renderer (canvas or svg)
+            container: '#view',   // parent DOM container
+            hover: true       // enable hover processing
+        });
+        return view.runAsync();
+    }
+</script>
+</body>

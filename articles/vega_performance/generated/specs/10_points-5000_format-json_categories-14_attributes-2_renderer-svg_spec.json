@@ -1,0 +1,272 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "width": 500,
+  "height": 500,
+  "padding": 5,
+  "data": [
+    {
+      "name": "table",
+      "url": "data/10_points-5000_format-json_categories-14_attributes-2_renderer-svg_data.json",
+      "format": {
+        "type": "json",
+        "parse": "auto"
+      },
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "'data: ' + ' ' + datum.attr_0 + ' ' + datum.attr_1",
+          "as": "tooltip_text"
+        }
+      ]
+    },
+    {
+      "name": "selected",
+      "on": [
+        {
+          "trigger": "!shift",
+          "remove": true
+        },
+        {
+          "trigger": "!shift && clicked",
+          "insert": "clicked"
+        },
+        {
+          "trigger": "shift && clicked",
+          "toggle": "clicked"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "xscale",
+      "type": "linear",
+      "domain": {
+        "data": "table",
+        "field": "x"
+      },
+      "range": "width",
+      "padding": 0.05
+    },
+    {
+      "name": "yscale",
+      "type": "linear",
+      "domain": {
+        "data": "table",
+        "field": "y"
+      },
+      "nice": true,
+      "range": "height"
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "range": {
+        "scheme": "category10"
+      },
+      "domain": {
+        "data": "table",
+        "field": "category"
+      }
+    },
+    {
+      "name": "size",
+      "domain": {
+        "data": "table",
+        "field": "attr_0"
+      },
+      "zero": false,
+      "range": [
+        10,
+        1000
+      ]
+    }
+  ],
+  "axes": [
+    {
+      "orient": "bottom",
+      "scale": "xscale",
+      "grid": true
+    },
+    {
+      "orient": "left",
+      "scale": "yscale",
+      "grid": true
+    }
+  ],
+  "signals": [
+    {
+      "name": "tooltip",
+      "value": {},
+      "on": [
+        {
+          "events": "symbol:mouseover",
+          "update": "datum"
+        },
+        {
+          "events": "symbol:mouseout",
+          "update": "{}"
+        }
+      ]
+    },
+    {
+      "name": "shift",
+      "value": false,
+      "on": [
+        {
+          "events": "@legendSymbol:click, @legendLabel:click",
+          "update": "event.shiftKey",
+          "force": true
+        }
+      ]
+    },
+    {
+      "name": "clicked",
+      "value": null,
+      "on": [
+        {
+          "events": "@legendSymbol:click, @legendLabel:click",
+          "update": "{value: datum.value}",
+          "force": true
+        }
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "name": "marks",
+      "type": "symbol",
+      "from": {
+        "data": "table"
+      },
+      "encode": {
+        "update": {
+          "x": {
+            "scale": "xscale",
+            "field": "x"
+          },
+          "y": {
+            "scale": "yscale",
+            "field": "y"
+          },
+          "size": {
+            "scale": "size",
+            "field": "attr_0"
+          },
+          "shape": {
+            "value": "circle"
+          },
+          "strokeWidth": {
+            "value": 2
+          },
+          "opacity": [
+            {
+              "test": "!length(data('selected')) || (indata('selected', 'value', datum.category))",
+              "value": 0.7
+            },
+            {
+              "value": 0.15
+            }
+          ],
+          "stroke": {
+            "value": "#FF0000",
+            "scale": "color",
+            "field": "category"
+          },
+          "fill": {
+            "value": "transparent",
+            "scale": "color",
+            "field": "category"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "encode": {
+        "enter": {
+          "align": {
+            "value": "center"
+          },
+          "baseline": {
+            "value": "bottom"
+          },
+          "fill": {
+            "value": "#333"
+          }
+        },
+        "update": {
+          "x": {
+            "scale": "xscale",
+            "signal": "tooltip.x",
+            "band": 0.5
+          },
+          "y": {
+            "scale": "yscale",
+            "signal": "tooltip.y",
+            "offset": -2
+          },
+          "text": {
+            "signal": "tooltip.tooltip_text"
+          },
+          "fillOpacity": [
+            {
+              "test": "isNaN(tooltip.x)",
+              "value": 1
+            },
+            {
+              "value": 1
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "legends": [
+    {
+      "stroke": "color",
+      "title": "Origin",
+      "encode": {
+        "symbols": {
+          "name": "legendSymbol",
+          "interactive": true,
+          "update": {
+            "fill": {
+              "value": "transparent"
+            },
+            "strokeWidth": {
+              "value": 2
+            },
+            "opacity": [
+              {
+                "test": "!length(data('selected')) || indata('selected', 'value', datum.value)",
+                "value": 0.7
+              },
+              {
+                "value": 0.15
+              }
+            ],
+            "size": {
+              "value": 64
+            }
+          }
+        },
+        "labels": {
+          "name": "legendLabel",
+          "interactive": true,
+          "update": {
+            "opacity": [
+              {
+                "test": "!length(data('selected')) || indata('selected', 'value', datum.value)",
+                "value": 1
+              },
+              {
+                "value": 0.25
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
