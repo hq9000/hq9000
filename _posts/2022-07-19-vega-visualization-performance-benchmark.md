@@ -4,7 +4,6 @@ title: Vega Visualization Performance benchmark
 
 ## Table of contents
 
--   [Table of contents](#table-of-contents)
 -   [Abstract (TLDR)](#abstract-tldr)
 -   [What is Vega](#what-is-vega)
 -   [Interactive client-side graphs on web pages with
@@ -13,10 +12,10 @@ title: Vega Visualization Performance benchmark
 -   [Benchmark](#benchmark)
     -   [Variables](#variables)
 -   [Observations](#observations)
-    -   [one thousand datapoints](#one-thousand-datapoints)
-    -   [five thousand datapoints](#five-thousand-datapoints)
-    -   [ten thousand datapoints](#ten-thousand-datapoints)
-    -   [thirty thousand datapoints](#thirty-thousand-datapoints)
+    -   [One thousand datapoints](#one-thousand-datapoints)
+    -   [Five thousand datapoints](#five-thousand-datapoints)
+    -   [Ten thousand datapoints](#ten-thousand-datapoints)
+    -   [Thirty thousand datapoints](#thirty-thousand-datapoints)
 -   [Performance profile](#performance-profile)
 -   [Conclusions](#conclusions)
 
