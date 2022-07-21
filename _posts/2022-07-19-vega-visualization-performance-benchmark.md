@@ -138,7 +138,7 @@ and we would want all three to be satisfied at the same time.
 
 I would say, based on the experiments I performed, the sweet spot is somewhere around 10 000 datapoints. Anything above, although somewhat workable, at least up to 30k, is already not too comfortable to interact with.
 
-The most surprising discovery for me was that `svg` renderer does not show any immediately obvious inferiority in comparison with `canvas`, and in some respects and on certain data sizes, delivers, in fact, better performance (I'm referring to hover behaviour at 10000k). 
+The most surprising discovery for me was that `svg` renderer does not show any immediately obvious inferiority in comparison with `canvas`, and in some respects and on certain data sizes, delivers, in fact, better performance (I'm referring to hover behaviour at 10k). 
 
 Another noteworthy finding is that there is no noticeable performance difference when using `csv` or `json` as data format.
 
