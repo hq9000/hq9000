@@ -93,8 +93,7 @@ At 10k it gets a little hot. Although the rendering itself takes quite reasonabl
 `svg` renderer feels, again, similar to canvas in terms of rendering, and, surprisingly, shows noticeably better "hover" performance. This is something I did not expect at all. I theorise that somehow `svg` used browser compiled routines to see which circle we are "hovering" over, as opposed to `canvas` where Vega has to rely on JavaScript interpreter to infer that.
 
 ### 30k datapoints
-
-* [vega with 30k datapoints and canvas renderer](https://grechin.org/articles/vega_performance/generated/04_points-30000_format-json_categories-14_attributes-2_renderer-canvas.html)
+* <a href="https://grechin.org/articles/vega_performance/generated/04_points-30000_format-json_categories-14_attributes-2_renderer-canvas.html" target="_blank">vega with 30k datapoints and canvas renderer</a>
 * [vega with 30k datapoints and svg renderer](https://grechin.org/articles/vega_performance/generated/12_points-30000_format-json_categories-14_attributes-2_renderer-svg.html)
     
 well, they both still work, I would say. They show me the picture without waiting time being unbearable (though it does give a sluggish impression). After playing with `svg` (inspecting elements etc.) my computer in general is not feeling too well. Also, with `svg` renderer, I see "hover" working unreliably (not showing anything sometimes). Hovering in `canvas`-based graph is more reliable but the delay is very high, up to the point of making it unusable.  
@@ -114,7 +113,7 @@ Here I put some screenshots of Chrome profiler to get some quantitative data.
 
 So we have these three competing demands:
 * responsiveness
-* size of data being displayed
+* size of data being displayed (the bigger the better)
 * speed of rendering
 
 and we would want all three to be satisfied at the same time.
