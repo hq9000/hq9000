@@ -123,5 +123,5 @@ The most surprising discovery for me was that `svg` renderer does not show any i
 
 Another noteworthy finding is that there is no noticeable performance difference when using `csv` or `json` as data format.
 
-So 10000 seems to be ok, but another point is whether we really want to display this much data. Several thousand facts on the same picture is already too much for any human being to digest. So further scaling should be possible by dynamically loading small portions of data and performing server-side aggregation so that at any given point, the graphical frontend has a comfortably sized data to display.
+So 10000 seem to be ok, but another point is whether we really want to display this much data. Several thousand facts on the same picture is already too much for any human being to digest. So further scaling should be possible by dynamically loading small portions of data and performing server-side aggregation so that at any given point, the graphical frontend has a comfortably sized data to display.
 
