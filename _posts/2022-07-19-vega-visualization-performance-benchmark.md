@@ -23,7 +23,7 @@ title: Vega Visualization Performance benchmark
 
 ## Abstract (TLDR)
 
-Vega is a visualization grammar (a language) and a library for server- and client-side visualizations. A live benchmark showing client-side performance of Vega on differently sized datasets is presented. A Python program that generate experiments used in the article is presented as well. Vega is shown to scale well to up to 10000 datapoints. 
+Vega is a visualization grammar (a language) and a library for server- and client-side visualizations. A live benchmark showing client-side performance of Vega on differently sized datasets is presented. A Python program that generate experiments used in the article is presented as well. Vega is shown to scale well to up to 10000 datapoints. No performance difference noticed when using `json` or `csv` input formats.
 
 The spec/data generator - a Python program used to set up the experiments, is [here](https://github.com/hq9000/vis-study).
 
@@ -58,7 +58,7 @@ For reasonably sized datasets (the definition of "reasonably" is, in fact, the m
 
 ## Benchmark
 
-Keeping the above in mind, I got curious about how far we can actually push it until gets unusable. Knowing some ballpark figures might help me and others to quickly get some rough idea whether client-side Vega will work in particular use cases. 
+Keeping the above in mind, I got curious about how far we can actually push it until it gets unusable. Knowing some ballpark figures might help me and others to quickly get some rough idea whether client-side Vega will work in a particular use case. 
 
 To answer this question, a simple spec of a scatter plot showing multi-attribute datapoints was created using a [programmatic generator](https://github.com/hq9000/vis-study).
 
@@ -84,7 +84,7 @@ giving us in total 4 * 2 * 2 = 16 different experiments. You can find and check 
 
 Here I describe my experiences and conclusions after testing the graphs in my setup: Linux, Chrome, a decent i5-based laptop 
 
-### one thousand datapoints
+### One thousand datapoints
 
 I have no problems at all interacting with the visualization when dataset size is at 1000. 
 
@@ -93,7 +93,7 @@ Neither do I perceive any difference when using `canvas` or `svg` as a renderer.
 * [vega with 1k datapoints and svg renderer](https://grechin.org/articles/vega_performance/generated/09_points-1000_format-json_categories-14_attributes-2_renderer-svg.html)
 * [vega with 1k datapoints and canvas renderer](https://grechin.org/articles/vega_performance/generated/01_points-1000_format-json_categories-14_attributes-2_renderer-canvas.html)
 
-### five thousand datapoints
+### Five thousand datapoints
 
 At 5000 datapoints, it gets very slightly more sluggish, although I would probably not notice it if I didn't pay attention:
 
@@ -102,7 +102,7 @@ At 5000 datapoints, it gets very slightly more sluggish, although I would probab
 
 Surprisingly, `canvas` performance is still on par with `svg` one.
 
-### ten thousand datapoints
+### Ten thousand datapoints
 
 At 10k it gets a little hot. Although the rendering itself takes quite reasonable time, the "show attributes on hover" behaviour is now definitely sluggish (when using `canvas` as renderer).
 
@@ -111,7 +111,7 @@ At 10k it gets a little hot. Although the rendering itself takes quite reasonabl
 
 `svg` renderer feels, again, similar to canvas in terms of rendering, and, surprisingly, shows noticeably better "hover" performance. This is something I did not expect at all. I theorise that somehow `svg` renderer uses browser compiled routines to see which circle we are "hovering" over, as opposed to `canvas` where Vega has to rely on JavaScript interpreter to infer that.
 
-### thirty thousand datapoints
+### Thirty thousand datapoints
 * <a href="https://grechin.org/articles/vega_performance/generated/04_points-30000_format-json_categories-14_attributes-2_renderer-canvas.html" target="_blank">vega with 30k datapoints and canvas renderer</a>
 * [vega with 30k datapoints and svg renderer](https://grechin.org/articles/vega_performance/generated/12_points-30000_format-json_categories-14_attributes-2_renderer-svg.html)
     
@@ -136,9 +136,9 @@ So we have these three competing demands:
 
 and we would want all three to be satisfied at the same time.
 
-I would say, based on the experiments I performed, the sweet spot is somewhere around 7500 datapoints. Anything above, although somewhat workable, at least up to 30k, is already not too comfortable to interact with.
+I would say, based on the experiments I performed, the sweet spot is somewhere around 10 000 datapoints. Anything above, although somewhat workable, at least up to 30k, is already not too comfortable to interact with.
 
-The most surprising discovery for me was that `svg` renderer does not show any immediately obvious inferiority in comparison with `canvas`, and in some respects and on certain data sizes gives, in fact, better performance (I'm referring to hover behaviour at 10000k). 
+The most surprising discovery for me was that `svg` renderer does not show any immediately obvious inferiority in comparison with `canvas`, and in some respects and on certain data sizes, delivers, in fact, better performance (I'm referring to hover behaviour at 10000k). 
 
 Another noteworthy finding is that there is no noticeable performance difference when using `csv` or `json` as data format.
 
