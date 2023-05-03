@@ -36,7 +36,7 @@ Additionally, I enjoy making songs and remixes! If you are vocalist, or have a t
 
 ## Whom do I search for
 
-If you are a fellow musician and If that stuff I wrote above clicks for you, if you are willing to consider a collaboration at some point, feel free to reach out. We can see how we fee about it, try working together and, who knows, we might produce something worth listening to. :)
+If you are a fellow musician and If that stuff I wrote above clicks for you, if you are willing to consider a collaboration at some point, feel free to reach out. We can see how we feel about it, try working together and, who knows, we might produce something worth listening to. :)
 
 ## Interested?
 
@@ -46,4 +46,3 @@ And thank you for you time!
 
 Take care,
 
-Sergey
