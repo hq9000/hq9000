@@ -20,11 +20,10 @@ Currently I am interested in such genres as Progressive, Trance, Techno etc. but
 
 Please check out some of my releases below.
 
-My previous BeatPort releases (this is the style I am currently most comfortable with):
-https://www.beatport.com/artist/clipsandpatterns/625124
+[My previous BeatPort releases](https://www.beatport.com/artist/clipsandpatterns/625124) (this is the style I am currently most comfortable with):
 
-This is a special one, a live piano improvisations:
-https://music.youtube.com/playlist?list=OLAK5uy_mot07cEQIIEe2zpc2QwkACOd39TFEiYNQ
+This is a special one, a [live piano improvisations](https://music.youtube.com/playlist?list=OLAK5uy_mot07cEQIIEe2zpc2QwkACOd39TFEiYNQ) album
+
 
 ## What I want to do
 
@@ -46,3 +45,4 @@ And thank you for you time!
 
 Take care,
 
+Sergey
