@@ -14,7 +14,7 @@ I do have a formal musical education (8 year musical school), play some piano, s
 
 By the way my long term (since 2008) favorite DAW is Reaper. Which is simply awesome!
 
-Currently I am interested in such genres as Progressive, Trance, Techno etc. but open to explore others.
+Currently I am interested such genres as Progressive, Trance, Techno etc. but open to explore others.
 
 ## My releases
 
@@ -25,13 +25,13 @@ Please check out some of my releases below.
 This is a special one, a [live piano improvisations](https://music.youtube.com/playlist?list=OLAK5uy_mot07cEQIIEe2zpc2QwkACOd39TFEiYNQ) album
 
 
-## What I want to do
+## What kind of musical collaboration do I look for
 
-I want to release another album (3-4 tracks, marketable on BeatPort), but this time, I specifically want to make it together with someone else. I know how beneficial for the product is when more than 1 set of eyes/minds/ears are working on it. When I did it alone, I often felt like I was trapped in the zone of no ideas or reiterating what I did before.
+I want to release another album (3-4 tracks, marketable on BeatPort), but this time, I specifically want to make it together with someone else. I know how beneficial for the product is when more than 1 set of eyes/minds/ears are working on it. When I did it alone, I often felt like I was trapped in the zone of no ideas or reiterating what I did before, and that is exactly why I decided to see where I can find opportunities for collaborating with other musuciants.
 
-I theorize that when there is a fellow producer, with his/her own personality/ideas/methods/network/tools - it would be so much more enriching, both personally and product-wise, and fun. Not to mention a pure enjoyment of working together with another human being on something worthwhile.
+I believe that when there is a fellow producer, with his/her own personality/ideas/methods/network/tools - it would be so much more enriching, both personally and product-wise, and fun. Not to mention a pure enjoyment of working together with another human being on something worthwhile.
 
-Additionally, I enjoy making songs and remixes! If you are vocalist, or have a track that you think would be cool to be a remix of, why not?
+Additionally, I enjoy making not only original instrument tracks, but also songs and remixes! If you are vocalist, or have a track that you think would be cool to make a remix of, why not?
 
 ## Whom do I search for
 
