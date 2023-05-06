@@ -4,6 +4,14 @@ title: ClipsAndPatterns
 
 ## Releases
 
+### Cycles (Rebellious, 2023)
+
+<img src="https://user-images.githubusercontent.com/21345604/236631074-773aa36a-8040-4fe7-8c85-b77dae375ac2.png"  width="185">
+
+A mini-album of two progressive tracks.
+
+- [BeatPort](https://www.beatport.com/release/cycles/4081673)
+
 ### Spontaneous Piano Episodes (CakeMusic, 2022)
 ![image](https://user-images.githubusercontent.com/21345604/151690638-78a1cac3-53e5-4bce-a143-db3b7e8dab55.png)
 
