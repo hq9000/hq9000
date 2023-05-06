@@ -26,13 +26,21 @@ First, I initialize a repository in the project directory. For me, it is most co
 
 * side note: you can use any git frontend, not only `git gui`.
 
-I also create a `.gitignore` file and that this is this particular project file that I want to track, and not any other, such as media or peak files.
+I also create a `.gitignore` file and that this is this particular project file that I want to track, and not any other, such as media or peak files:
+
+```.gitignore
+*
+
+!in_your_eyes_remix_git_managed.rpp
+```
 
 Then I am free to work with the project in my DAW as usual. When I am done working on a specific version, I make a commit and give it a descriptive name, e.g. "bass vst settings adjusted".
 
 Then I can see all the versions of my project in `git gui` tool.
 
 Not only that, but I can also open any historical version of the project, create branches and so on. In other words, I can fully benefit from the version control system! If you are already using git, you know what I mean.
+
+![image](https://user-images.githubusercontent.com/21345604/236634404-f0392a01-d22f-4893-9e90-356707eadc86.png)
 
 The days of versioned files mess in my project folder are finally gone! I wonder, though, if Reaper developers will be willing to incorporate that into their product one day.
 
