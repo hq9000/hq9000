@@ -21,7 +21,7 @@
 title: Yet another tech guy's blog
 email: grechin.sergey@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A personal blog of Sergey Grechin, a yet another tech guy and a software developer.
+  A personal blog of Sergey Grechin, a yet another tech guy, musician, and a software developer.
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  hq9000
