@@ -18,11 +18,8 @@ Currently I am interested such genres as Progressive, Trance, Techno etc. but op
 
 ## My releases
 
-Please check out some of my releases below.
-
-[My previous BeatPort releases](https://www.beatport.com/artist/clipsandpatterns/625124) (this is the style I am currently most comfortable with).
-
-This is a special one, a [live piano improvisations](https://music.youtube.com/playlist?list=OLAK5uy_mot07cEQIIEe2zpc2QwkACOd39TFEiYNQ) album
+Check them here: 
+[ClipsAndPatterens releases](https://grechin.org/clipsandpatterns.html)
 
 
 ## What kind of musical collaboration do I look for
