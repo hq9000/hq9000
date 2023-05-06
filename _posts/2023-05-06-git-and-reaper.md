@@ -4,7 +4,7 @@ title: git for musicians! My approach for versioning projects
 
 Being both a musician and a software engineer, I always felt that these two areas are almost completely separated. My developer skill-set seemed to have little to no use for my work as a musician. Which is a pity considering how cool it would be if there was some kind of a sinergy across these two sides of my life.
 
-Recently, though, I have found a useful use-case of something I previously used for my development work for my music production.
+Recently, though, I have found a useful possibility to utilize something I previously used solely for my development work, for my music production.
 
 ## meet Git for music production
 
