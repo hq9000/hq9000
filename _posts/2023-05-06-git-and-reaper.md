@@ -12,27 +12,25 @@ Did you notice yourself creating a dozen of versions of your project? Are the na
 
 `my-cool-song-new-vocals-brighter-mix-4.rpp`
 
-Did you ever feel frustrated about unmanageability of all this und how sloppy you project directly ends up looking?
+Did you ever feel frustrated about unmanageability of all this and how sloppy you project directory ends up looking?
 
 This version nightmare problem for software people has a solid and well-recognized solution: version control systems. Such as ["git"](https://git-scm.com/), which is not only the most widely used one in the industry, but also completely free, open source and cross platform (that is working flawlessly on Win/Mac/Linux).
 
-I use Reaper, and instead of creating dozens of copies of my project file (`my-cool-song.rpp`), such as `my-cool-song-new-vocals-brighter-mix-4.rpp`, I simply initialized a git repository in the project folder and put the file under version control.
-
-Although, when wearing a developer hat, I am normally in linux, for the music stuff, Windows is a better option. 
-
-For Windows, you can install `git-bash`, and have all the git functionality at your fingertips.
+I use Reaper, and instead of creating dozens of copies of my project file (`my-cool-song.rpp`), such as `my-cool-song-new-vocals-brighter-mix-4.rpp`, I simply initialize a git repository in the project folder and put the file under version control.
 
 ## My git-based music workflow
 
+Although, when wearing a developer hat, I am normally in linux, for the music stuff, Windows is a better option. For Windows, you can install `git-bash`, and have all the git functionality at your fingertips through a command-line interface.
+
 First, I initialize a repository in the project directory. For me, it is most convenient to use a git bash command line terminal.
+
+* side note: you can use any git frontend, not only `git gui`.
 
 I also create a `.gitignore` file and that this is this particular project file that I want to track, and not any other, such as media or peak files.
 
 Then I am free to work with the project in my DAW as usual. When I am done working on a specific version, I make a commit and give it a descriptive name, e.g. "bass vst settings adjusted".
 
 Then I can see all the versions of my project in `git gui` tool.
-
-* side note: you can use any git frontend, not only git gui
 
 Not only that, but I can also open any historical version of the project, create branches and so on. In other words, I can fully benefit from the version control system! If you are already using git, you know what I mean.
 
