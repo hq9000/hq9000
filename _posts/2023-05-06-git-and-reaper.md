@@ -4,7 +4,7 @@ title: git for musicians! My approach for versioning projects
 
 Being both a musician and a software engineer, I always felt that these two areas are almost completely separated. My developer skill-set seemed to have little to no use for my work as a musician. Which is a pity considering how cool it would be if there was some kind of a sinergy across these two sides of my life.
 
-Recently, though, I have found a useful use-case of something I previously used for my development work for my music production.
+Recently, though, I have found a useful possibility to utilize something I previously used solely for my development work, for my music production.
 
 ## meet Git for music production
 
@@ -24,13 +24,21 @@ Although, when wearing a developer hat, I am normally in linux, for the music st
 
 First, I initialize a repository in the project directory. For me, it is most convenient to use a git bash command line terminal.
 
-* side note: you can use any git frontend, not only `git gui`.
+I also create a `.gitignore` file and that this is this particular project file that I want to track, and not any other, such as media or peak files:
 
-I also create a `.gitignore` file and that this is this particular project file that I want to track, and not any other, such as media or peak files.
+```.gitignore
+*
+
+!in_your_eyes_remix_git_managed.rpp
+```
 
 Then I am free to work with the project in my DAW as usual. When I am done working on a specific version, I make a commit and give it a descriptive name, e.g. "bass vst settings adjusted".
 
 Then I can see all the versions of my project in `git gui` tool.
+
+![image](https://user-images.githubusercontent.com/21345604/236634404-f0392a01-d22f-4893-9e90-356707eadc86.png)
+
+* side note: you can use any git frontend, not only `git gui`.
 
 Not only that, but I can also open any historical version of the project, create branches and so on. In other words, I can fully benefit from the version control system! If you are already using git, you know what I mean.
 
