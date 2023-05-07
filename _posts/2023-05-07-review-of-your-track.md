@@ -6,7 +6,7 @@ I know it very well how hard it becomes to maintain an objective view of your pr
 
 How to deal with that? Perhaps you have a collaborator that can help you with that. Another good idea is to frequently check how your product sounds against the chosen reference.
 
-Or, perhaps, you want me to review your track? :)
+Or, perhaps, you want me to review your track?
 
 That is - comment on the sounds, the balance, the space, and the overall structure of it? It's always nice to have another pair of ears and another opinion, right?
 
