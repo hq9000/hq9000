@@ -2,6 +2,9 @@
 title: ClipsAndPatterns
 ---
 
+ClipsAndPatterns is a name of my lifelong music project. On this page I gather all of its notable releases.
+
+
 ## Releases
 
 
