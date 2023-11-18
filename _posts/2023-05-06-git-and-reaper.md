@@ -44,7 +44,19 @@ Not only that, but I can also open any historical version of the project, create
 
 The days of versioned files mess in my project folder are finally gone! I wonder, though, if Reaper developers will be willing to incorporate that into their product one day.
 
+### Managing other files (WAVs etc.)
+
+Git is not super suited for managing big binary files (such as WAV samples and stems), but this is not a problem for me since I only manage the main project file.
+
+About other files I do not care. Why? Becase I never remove them. The media files are either WAVs related to this project (and which are therefore kept in the project folder) or samples from my library. In both cases, these files are normally (at least withing the lifespan of the project under construction) never deleted.
+
+This approach, which, I guess, I share with most producers, makes it easy to return to any historical version of the project and rely on the media files to be found.
+
+### collaborating with GIT? Not sure...
+
 GIT is not only about versioning, but also about collaboration, with remote repositories and so on. Frankly, I don't see it feasible for collaboration over music projects since the project files are normally opaque and we should not expect git or any other version control system to be able to merge/diff them.
+
+And let's not forget that to be able to work on your project, the collaborator needs to have very close set up: the DAW, the plugins and all the media files.
 
 Well, this tool is not magical, but still pretty useful!
 
