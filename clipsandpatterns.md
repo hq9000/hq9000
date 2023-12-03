@@ -4,6 +4,9 @@ title: ClipsAndPatterns
 
 ClipsAndPatterns is a name of my lifelong music project. On this page I gather all of its notable releases.
 
+**Are you looking for collaboration? Feel free to drop me a line at grechin.sergey(at)gmail.com!** 
+
+If you are a producer, vocalist, songwriter, we can do stuff together! Starting from cross-checks of our productions to help each other detect mixing glitches, or cross-mastering of our tracks up to releasing something together.
 
 ## Releases
 
