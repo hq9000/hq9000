@@ -5,7 +5,6 @@ title: The two great features of Synth1 I did not know about
 Synth1 is said to be the most downloaded VST plugin of all times. And for a good reason:
 
 - it's free, also from bugs, stable and super light-weight. You can download it anytime from its [homepage](https://daichilab.sakura.ne.jp/softsynth/index.html)
-
 - it is a decent subtractive synth with all the fundamental features one needs. As such, I would say it is comparable with Sylenth!
 - has tons of free to download banks on the Internet
 
