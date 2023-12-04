@@ -6,6 +6,10 @@ Being both a musician and a software engineer, I always felt that these two area
 
 Recently, though, I have found a useful possibility to utilize something I previously used solely for my development work, for my music production.
 
+>_By the way, **are you a musician looking for collaboration**? Feel free to drop me a line at grechin.sergey(at)gmail.com! If you are a producer, vocalist, songwriter, we can do stuff together! Starting from cross-checks of our productions to help each other detect mixing glitches, or cross-mastering of our tracks up to releasing something together._
+
+Okay, and now let's get to the point and...
+
 ## meet Git for music production
 
 Did you notice yourself creating a dozen of versions of your project? Are the names like this familiar to you? 
