@@ -28,6 +28,7 @@ this unison things seemingly duplicates the sound your oscillators provide and r
 ## Lively velocity-dependent filter cutoff
 
 Simply activate the "Vel" button, and, depending of how much you rotate the "trk" knob, your filter cutoff will depend on the velocity of the notes you take. That makes the sound, especially the one with clear attack and overall sharp character, way more livelier, especially when combined with the built in delay effect:
+
 ![image](https://github.com/hq9000/hq9000/assets/21345604/bec6c373-55ad-45bf-8ee8-33df04e80403)
 
 I hope you have found this info useful! Enjoy creating your new track with this great synth!
