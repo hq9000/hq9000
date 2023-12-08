@@ -25,7 +25,7 @@ Yes, these delimiters stay 16 pixels high when you zoom! The exact size is confi
 
 ## Greatest feature of Reaper 7 #2: "Container" plugins + parallel processing
 
-If you ever encountered the concept of subchains i Ableton Live great and missed that part in Reaper (for drum kits or synth layering), there is really good news for you.
+If you ever encountered the concept of subchains in Ableton Live great and missed that part in Reaper (for drum kits or synth layering), there is really good news for you.
 
 Previously fully sequential, with Reaper 7 you can have parallel processing with subchains within one track.
 
@@ -39,7 +39,7 @@ The good news is that you can do something like this in Reaper.  The appearance 
 
 ![image](https://github.com/hq9000/hq9000/assets/21345604/a04524bd-145e-42a1-b690-75d674e0508c)
 
-The key is is use a "Container", which is basically... well... a container that gives you a nested chain with the similar UI.
+The key is to use a "Container", which is basically... well... a container that gives you a nested chain with similar user interface.
 
 And then also you need to make it processed "in parallel with previous FX" that adds those two weird pipes before its name: `||`:
 
@@ -54,7 +54,7 @@ What I do still miss, though, is:
 - ability to adjust volume/panning for subchains
 - soloing the chain (muting is simple by disabling the corresponding subchain, no problem there)
 
-Let's hope the developers address this in some upcoming release which I definitely be looking forward to.
+Let's hope the developers address this in some upcoming release which I will definitely be looking forward to.
 
 Thanks for reading and happy Reaper hours!
 
