@@ -1,5 +1,5 @@
 ---
-title: The two features of Reaper 7 I like the most (Visual Delimiters and parallel processing with Container)
+title: The two features of Reaper 7 I like the most (Delimiters AKA Visual Spacers and parallel processing with Container)
 ---
 
 Having started using Reaper around 2008, I can safely consider myself not a beginner.
