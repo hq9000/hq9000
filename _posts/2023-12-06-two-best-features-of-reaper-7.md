@@ -4,7 +4,7 @@ title: The two features of Reaper 7 I like the most (Visual Delimiter and parall
 
 Having started using Reaper around 2008, I can safely consider myself not a beginner.
 With some back and forth, having done detours to Cakewalk Sonar, Cubase and Ableton Live (not to mention relict trackers such as Fast Tracker and Buzz in the 90s), I have finally decided to stick
-to this wonderfully powerful, albeit not exactly the beginner-friendliest and slicky looking, DAW. 
+to this wonderfully powerful, albeit not exactly the beginner-friendliest and slicky looking, DAW.
 
 I would say that Reaper perfectly fits the nerdy part of me, and fully satisfies my willingness to invest into the tools of my choice.
 
@@ -46,7 +46,7 @@ And then also you need to make it processed "in parallel with previous FX" that 
 
 ![image](https://github.com/hq9000/hq9000/assets/21345604/dc880039-7c27-46f0-b3cf-7ca016c634fb)
 
-Sure, nothing of that impossible before, you would just have to add more and more tracks and submixes, carefully routing Audio/Midi and doing quite a lot of clicks and complicating the mental model of your project. I've been there many times.
+Sure, nothing of that was impossible before, you would just have to add more and more tracks and submixes, carefully routing Audio/Midi and doing quite a lot of clicks and complicating the mental model of your project. I've been there many times.
 
 So, a great feature, and long awaited too! I am already using it for synth layering!
 
