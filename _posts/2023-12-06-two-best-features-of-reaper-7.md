@@ -14,7 +14,7 @@ What I found was a couple of features I personally found really great, one purel
 
 >_By the way, if are you a musician looking for collaboration, be invited to drop me a line at grechin.sergey(at)gmail.com! Be you a producer, vocalist, songwriter, let's see what we can do together! Something to consider would be: checking our productions to help detect mixing glitches (have another pair of ears), mastering of our tracks and up to releasing something together._
 
-## Greatest feature of Reaper 7 #1: Track delimiters
+## Greatest feature of Reaper 7 #1: Track delimiters (AKA Visual Spacers)
 
 You can add non-collapsible "Visual spacers" between tracks, like this
 
@@ -22,7 +22,7 @@ You can add non-collapsible "Visual spacers" between tracks, like this
 
 I can see it rather useful to add a bit of more organization to your tracks while avoiding track nesting which complicates the routing and adds quite a bit of clutter. Simple and useful feature!
 
-Yes, these delimiters stay 16 pixels high when you zoom! The exact size is configurable somewhere in the settings, but the default 16 pixels seek t0 work great for me.
+Yes, these spacers stay 16 pixels high when you zoom! The exact size is configurable somewhere in the settings, but the default 16 pixels seek t0 work great for me.
 
 ## Greatest feature of Reaper 7 #2: "Container" plugins + parallel processing
 
