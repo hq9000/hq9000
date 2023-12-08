@@ -12,6 +12,8 @@ Recently, the 7th version of Reaper came out. Surely not a groundbreaking update
 
 What I found was a couple of features I personally found really great, one purely visual and the other more on the routing side.
 
+>_By the way, if are you a musician looking for collaboration, be invited to drop me a line at grechin.sergey(at)gmail.com! Be you a producer, vocalist, songwriter, let's see what we can do together! Something to consider would be: checking our productions to help detect mixing glitches (have another pair of ears), mastering of our tracks and up to releasing something together._
+
 ## Greatest feature of Reaper 7 #1: Track delimiters
 
 You can add non-collapsible "Visual spacers" between tracks, like this
@@ -56,6 +58,4 @@ What I do still miss, though, is:
 Let's hope the developers address this in some upcoming release which I will definitely be looking forward to.
 
 Thanks for reading and happy Reaper hours!
-
->_By the way, if are you a musician looking for collaboration, be invited to drop me a line at grechin.sergey(at)gmail.com! Be you a producer, vocalist, songwriter, let's see what we can do together! Something to consider would be: checking our productions to help detect mixing glitches (have another pair of ears), mastering of our tracks and up to releasing something together._
 
