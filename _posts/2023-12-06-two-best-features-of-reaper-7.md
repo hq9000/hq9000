@@ -6,8 +6,7 @@ Having started using Reaper around 2008, I can safely consider myself not a begi
 With some back and forth, having done detours to Cakewalk Sonar, Cubase and Ableton Live (not to mention relict trackers such as Fast Tracker and Buzz in the 90s), I have finally decided to stick
 to this wonderfully powerful, albeit not exactly the beginner-friendliest and slicky looking, DAW. 
 
-I would say this
-Reaper perfectly fits the nerdy part of me, and fully satisfies my willingness to invest into the tools of my choice.
+I would say that Reaper perfectly fits the nerdy part of me, and fully satisfies my willingness to invest into the tools of my choice.
 
 Recently, the 7th version of Reaper came out. Surely not a groundbreaking update, if you ask me, and I'd not have even noticed any major changes at first. As a software guy, I dread upgrades, and initially I didn't feel that it was worth it. In this case, however, I took the time to actually read the [release notes](https://dlz.reaper.fm/userguide/WhatsNewReaper7Summary_r2.pdf) highlighting the changes.
 
