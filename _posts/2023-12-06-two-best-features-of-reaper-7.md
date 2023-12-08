@@ -22,7 +22,7 @@ You can add non-collapsible "Visual spacers" between tracks, like this
 
 I can see it rather useful to add a bit of more organization to your tracks while avoiding track nesting which complicates the routing and adds quite a bit of clutter. Simple and useful feature!
 
-Yes, these spacers stay 16 pixels high when you zoom! The exact size is configurable somewhere in the settings, but the default 16 pixels seek t0 work great for me.
+Yes, these spacers stay 16 pixels high when you zoom! The exact size is configurable somewhere in the settings, but the default 16 pixels seem to work great for me.
 
 ## Greatest feature of Reaper 7 #2: "Container" plugins + parallel processing
 
