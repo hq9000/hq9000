@@ -62,11 +62,11 @@ And let's not forget that to be able to work on your project, the collaborator n
 
 Another note of the remote repositories: I do find it useful that I can push a project to github and this kind of a backup that will outlive my current PC. This is nice, but we can't really consider it a real backup - because of missing media.
 
-### Tracking TODO items for your music project in github
+### Tracking TODO items for your music project in GitHub
 
-Intereseting use-case I'm currently testing is to have a "todo list", think of an small per-project issue tracker with a list of things you plan to do later. Once it's in Github, you can update it from anywhere (Github allows you to edit files right in the browser), so, basically, you project gets its own, private, read/write website. On the go and got a cool idea? Now you know where to record it (don't forget to `pull` your update, though, once you are back to your DAW PC)
+Intresting use-case I'm currently testing is to have a "todo list", think of an small per-project issue tracker with a list of things you plan to do later. Once it's in Github, you can update it from anywhere (GitHub allows you to edit files right in the browser), so, basically, you project gets its own, private, read/write website. On the go and got a cool idea? Now you know where to record it (don't forget to `pull` your update, though, once you are back to your DAW PC).
 
-So, when we inspect this idea of "git for music" a bit closer, we can see that it does have a few viable applications. Yes, this tool is not magical, but still pretty useful!
+In conclusion, when we inspect this idea of "git for music" a bit closer, we can see that it does have a few viable applications. Yes, this tool is not magical, but still pretty useful!
 
 Thanks for reading.
 
