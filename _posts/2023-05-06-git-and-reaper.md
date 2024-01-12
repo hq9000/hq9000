@@ -68,7 +68,7 @@ Interesting use-case I'm currently testing is to have a "todo list", think of an
 
 ```
 fix panning issues in chorus TODO
-add one more synt layer TODO
+add one more synth layer TODO
 ```
 
 Once it's in Github, you can update it from anywhere (GitHub allows you to edit files right in the browser), so, basically, you project gets its own, private, read/write website. On the go and got a cool idea? Now you know where to record it (don't forget to `pull` your update, though, once you are back to your DAW PC).
