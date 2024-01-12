@@ -64,7 +64,7 @@ Another note of the remote repositories: I do find it useful that I can push a p
 
 ### Tracking TODO items for your music project in GitHub
 
-Intresting use-case I'm currently testing is to have a "todo list", think of an small per-project issue tracker with a list of things you plan to do later. Once it's in Github, you can update it from anywhere (GitHub allows you to edit files right in the browser), so, basically, you project gets its own, private, read/write website. On the go and got a cool idea? Now you know where to record it (don't forget to `pull` your update, though, once you are back to your DAW PC).
+Interesting use-case I'm currently testing is to have a "todo list", think of an small per-project issue tracker with a list of things you plan to do later. Once it's in Github, you can update it from anywhere (GitHub allows you to edit files right in the browser), so, basically, you project gets its own, private, read/write website. On the go and got a cool idea? Now you know where to record it (don't forget to `pull` your update, though, once you are back to your DAW PC).
 
 In conclusion, when we inspect this idea of "git for music" a bit closer, we can see that it does have a few viable applications. Yes, this tool is not magical, but still pretty useful!
 
