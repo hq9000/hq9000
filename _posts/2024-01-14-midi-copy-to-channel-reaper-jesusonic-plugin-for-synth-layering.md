@@ -8,6 +8,8 @@ I have recently created a small jesusonic plugin called "MIDI copy to channels" 
 
 Basically, it allows you, with one midi source, make several sounds played. In my case, I find it rather useful with synths like TTS-1 and Roland Sound Canvas.
 
+Feel free to get the plugin here: [https://github.com/hq9000/reaper_tools/blob/master/js/midi_copy_to_channels.js](https://github.com/hq9000/reaper_tools/blob/master/js/midi_copy_to_channels.js)
+
 More on that in the video below.
 
-<iframe width="1193" height="671" src="https://www.youtube.com/watch?v=ES-OSCrsSKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ES-OSCrsSKc?si=hcsU-Qn8PHCDq8pQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
