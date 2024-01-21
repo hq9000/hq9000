@@ -1,5 +1,5 @@
 ---
-title: "MIDI copy to channels", a Reaper plugin useful for synth layering
+title: MIDI copy to channels, a Reaper plugin useful for synth layering
 ---
 
 I have recently created a small jesusonic plugin to facilitate sound layering with multitimbral synths. More on that in the video below.
