@@ -24,7 +24,26 @@ I use Reaper, and instead of creating dozens of copies of my project file (`my-c
 
 Although, when wearing a developer hat, I am normally in linux, for the music stuff, Windows is a better option. For Windows, you can install `git-bash`, and have all the git functionality at your fingertips through a command-line interface.
 
-First, I initialize a repository in the project directory. For me, it is most convenient to use a git bash command line terminal.
+First, I initialize a repository in the project directory. For me, it is most convenient to use a git bash command line terminal:
+
+```shell
+Acer@DESKTOP-NRN84IB MINGW64 /c/home/music
+$ cd test_git_project/
+
+Acer@DESKTOP-NRN84IB MINGW64 /c/home/music/test_git_project
+$ git init .
+Initialized empty Git repository in C:/home/music/test_git_project/.git/
+
+Acer@DESKTOP-NRN84IB MINGW64 /c/home/music/test_git_project (master)
+$
+```
+
+in the example above:
+- I first navigated to the directory with my project with `cd` command
+- initialized a repository with `git init .`
+- on the last, third line, my command prompt starts having a little `(master)` thing, which is the default "branch" in my repository that Git has created for me
+
+
 
 I also create a `.gitignore` file and that this is this particular project file that I want to track, and not any other, such as media or peak files:
 
