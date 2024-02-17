@@ -17,7 +17,9 @@ The tracking code looks something like this:
 ```
 This code you get from your google analytics property, look for tagging instructions. It must be easy to find.
 
-Instead of explaining it further, let me just point you to the [this commit that fixed it for this site](https://github.com/hq9000/hq9000/commit/06cd5459c2dc335430a3faf68a900fec1f2e632c).
+Instead of explaining it further, let me just point you to the [this commit that fixed it for this site](https://github.com/hq9000/hq9000/commit/1b1f0578e6343b730cbd550c78f072deb49411e5).
+
+Please note that you need both: the file in `_includes` and a line in `_config.yaml`.
 
 
 ## Outdated way (not working) left for history
