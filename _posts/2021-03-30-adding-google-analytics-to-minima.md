@@ -1,11 +1,23 @@
 
-update 2024-02-17: After working fine, it broke. The stats stopped being gathered. The reason is breaking migration, of 2023, of Google Analytics to another tag format.
+update 2024-02-17: After working fine, it broke. The stats stopped being gathered. The reason is breaking migration, in 2023, I guess, of Google Analytics to newer tag format.
 
-To fix things, you just need to put one file in `_includes`. 
+To fix things, you just need to put the tracking html code file in `_includes/google-analytics.html`.
 
-Instead of explaining it, let me just point you to the [this commit that fixed it for this site](https://github.com/hq9000/hq9000/commit/06cd5459c2dc335430a3faf68a900fec1f2e632c).
+The tracking code looks something like this:
+```
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J900LXB0C2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-The code to put there you get from your google analytics property, look for tagging instructions. It must be easy to find.
+  gtag('config', 'G-J900LXB0C2');
+</script>
+```
+This code you get from your google analytics property, look for tagging instructions. It must be easy to find.
+
+Instead of explaining it further, let me just point you to the [this commit that fixed it for this site](https://github.com/hq9000/hq9000/commit/06cd5459c2dc335430a3faf68a900fec1f2e632c).
 
 
 ## Outdated way (not working) left for history
