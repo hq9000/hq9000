@@ -1,12 +1,10 @@
 ---
-title: git for musicians! My approach to versioning projects
+title: git for music! My approach to versioning projects
 ---
 
 Being both a musician and a software engineer, I always felt that these two areas are almost completely separated. My developer skill-set seemed to have little to no use for my work as a musician. Which is a pity considering how cool it would be if there was some kind of a sinergy across these two sides of my life.
 
-Recently, though, I have found a useful possibility to utilize something I previously used solely for my development work, for my music production.
-
->_By the way, **are you a musician looking for collaboration**? Feel free to drop me a line at grechin.sergey(at)gmail.com! If you are a producer, vocalist, songwriter, we can do stuff together! Starting from cross-checks of our productions to help each other detect mixing glitches, or cross-mastering of our tracks up to releasing something together._
+Recently, though, I have found a useful possibility to utilize something I previously used solely for my development work, namelly, git, the version control tool, for my music production.
 
 Okay, and now let's get to the point and...
 
@@ -62,6 +60,21 @@ GIT is not only about versioning, but also about collaboration, with remote repo
 
 And let's not forget that to be able to work on your project, the collaborator needs to have very close set up: the DAW, the plugins and all the media files.
 
-Well, this tool is not magical, but still pretty useful!
+Another note of the remote repositories: I do find it useful that I can push a project to github and this kind of a backup that will outlive my current PC. This is nice, but we can't really consider it a real backup - because of missing media.
+
+### Tracking TODO items for your music project in GitHub
+
+Interesting use-case I'm currently testing is to have a "todo list", think of an small per-project issue tracker with a list of things you plan to do later. Just a version-tracked text file of the format similar to this:
+
+```
+fix panning issues in chorus TODO
+add one more synth layer TODO
+```
+
+Once it's in Github, you can update it from anywhere (GitHub allows you to edit files right in the browser), so, basically, you project gets its own, private, read/write website. On the go and got a cool idea? Now you know where to record it (don't forget to `pull` your update, though, once you are back to your DAW PC).
+
+In conclusion, when we inspect this idea of "git for music" a bit closer, we can see that it does have a few viable applications. Yes, this tool is not magical, but still pretty useful!
 
 Thanks for reading.
+
+>_By the way, **are you a musician looking for collaboration**? Feel free to drop me a line at grechin.sergey(at)gmail.com! If you are a producer, vocalist, songwriter, we can do stuff together! Starting from cross-checks of our productions to help each other detect mixing glitches, or cross-mastering of our tracks up to releasing something together._
