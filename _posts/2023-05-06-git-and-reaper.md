@@ -4,7 +4,7 @@ title: git for music! My approach to versioning projects
 
 Being both a musician and a software engineer, I always felt that these two areas are almost completely separated. My developer skill-set seemed to have little to no use for my work as a musician. Which is a pity considering how cool it would be if there was some kind of a sinergy across these two sides of my life.
 
-Recently, though, I have found a useful possibility to utilize something I previously used solely for my development work, namelly, git, the version control tool, for my music production.
+Recently, though, I have found a useful possibility to utilize something I previously used solely for my development work, namely, git, the version control tool, for my music production.
 
 Okay, and now let's get to the point and...
 
@@ -19,6 +19,10 @@ Did you ever feel frustrated about unmanageability of all this and how sloppy yo
 This version nightmare problem for software people has a solid and well-recognized solution: version control systems. Such as ["git"](https://git-scm.com/), which is not only the most widely used one in the industry, but also completely free, open source and cross platform (that is working flawlessly on Win/Mac/Linux).
 
 I use Reaper, and instead of creating dozens of copies of my project file (`my-cool-song.rpp`), such as `my-cool-song-new-vocals-brighter-mix-4.rpp`, I simply initialize a git repository in the project folder and put the file under version control.
+
+By the way, a good supplementary for this reading could be this video of me going through an example. If you are not fan of watching videos, feel free to read on.
+
+<iframe width="417" height="235" src="https://www.youtube.com/embed/TAnaKhtenPM" title="using git for managing musical projects" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## My git-based music workflow
 
