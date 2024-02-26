@@ -26,7 +26,7 @@ By the way, a good supplementary for this reading could be this video of me goin
 
 
 <div class="video-container">
-  <iframe width="100%" height="200" src="https://www.youtube.com/embed/TAnaKhtenPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/TAnaKhtenPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## My git-based music workflow
