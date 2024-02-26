@@ -24,6 +24,11 @@ By the way, a good supplementary for this reading could be this video of me goin
 
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/TAnaKhtenPM" title="using git for managing musical projects" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+
+<div class="video-container">
+  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/TAnaKhtenPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ## My git-based music workflow
 
 Although, when wearing a developer hat, I am normally in linux, for the music stuff, Windows is a better option. For Windows, you can install `git-bash`, and have all the git functionality at your fingertips through a command-line interface.
