@@ -22,7 +22,7 @@ I use Reaper, and instead of creating dozens of copies of my project file (`my-c
 
 By the way, a good supplementary for this reading could be this video of me going through an example. If you are not fan of watching videos, feel free to read on.
 
-<iframe width="417" height="235" src="https://www.youtube.com/embed/TAnaKhtenPM" title="using git for managing musical projects" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/TAnaKhtenPM" title="using git for managing musical projects" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## My git-based music workflow
 
