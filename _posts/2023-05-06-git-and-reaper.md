@@ -1,5 +1,5 @@
 ---
-title: git for music: Using version control for music production.
+title: git for music. Using version control for music production.
 ---
 
 last updated on 6 Apr 2024
