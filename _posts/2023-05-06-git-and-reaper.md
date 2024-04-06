@@ -2,7 +2,7 @@
 title: git for music. Using version control for music production.
 ---
 
-last updated on 6 Apr 2024
+> last updated on 6 Apr 2024
 
 Being both a musician and a software engineer, I always felt that these two areas are almost completely separated. My developer skill-set seemed to have little to no use for my work as a musician. Which is a pity considering how cool it would be if there was some kind of a sinergy across these two sides of my life.
 
