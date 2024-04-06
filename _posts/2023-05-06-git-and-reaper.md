@@ -1,5 +1,5 @@
 ---
-title: git for music! My approach to versioning projects
+title: git for music: Using version control for music production.
 ---
 
 Being both a musician and a software engineer, I always felt that these two areas are almost completely separated. My developer skill-set seemed to have little to no use for my work as a musician. Which is a pity considering how cool it would be if there was some kind of a sinergy across these two sides of my life.
@@ -10,7 +10,7 @@ Okay, and now let's get to the point and...
 
 ## meet Git for music production
 
-Did you notice yourself creating a dozen of versions of your project? Are the names like this familiar to you? 
+Did you notice yourself creating a dozen of versions of your project? Are the names like this familiar to you?
 
 `my-cool-song-new-vocals-brighter-mix-4.rpp`
 
@@ -18,7 +18,7 @@ Did you ever feel frustrated about unmanageability of all this and how sloppy yo
 
 This version nightmare problem for software people has a solid and well-recognized solution: version control systems. Such as ["git"](https://git-scm.com/), which is not only the most widely used one in the industry, but also completely free, open source and cross platform (that is working flawlessly on Win/Mac/Linux).
 
-I use Reaper, and instead of creating dozens of copies of my project file (`my-cool-song.rpp`), such as `my-cool-song-new-vocals-brighter-mix-4.rpp`, I simply initialize a git repository in the project folder and put the file under version control.
+For music production, I use Reaper, and instead of creating dozens of copies of my project file (`my-cool-song.rpp`), such as `my-cool-song-new-vocals-brighter-mix-4.rpp`, I simply initialize a git repository in the project folder and put the file under version control. This git repository will be the "home" for managing the version of our music project.
 
 By the way, a good supplementary for this reading could be this video of me going through an example. If you are not fan of watching videos, feel free to read on.
 
@@ -26,9 +26,9 @@ By the way, a good supplementary for this reading could be this video of me goin
   <iframe width="100%" height="400" src="https://www.youtube.com/embed/TAnaKhtenPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## My git-based music workflow
+## My git-based music production workflow
 
-Although, when wearing a developer hat, I am normally in linux, for the music stuff, Windows is a better option. For Windows, you can install `git-bash`, and have all the git functionality at your fingertips through a command-line interface.
+Although, when wearing a developer hat, I am normally in linux, for the music production stuff, due to the better availability of plugins and such, Windows is a better option. For Windows, you can install `git-bash`, and have all the git functionality at your fingertips through a command-line interface.
 
 First, I initialize a repository in the project directory. For me, it is most convenient to use a git bash command line terminal:
 
@@ -85,7 +85,7 @@ GIT is not only about versioning, but also about collaboration, with remote repo
 
 And let's not forget that to be able to work on your project, the collaborator needs to have very close set up: the DAW, the plugins and all the media files.
 
-Another note of the remote repositories: I do find it useful that I can push a project to github and this kind of a backup that will outlive my current PC. This is nice, but we can't really consider it a real backup - because of missing media.
+Another note of the remote repositories: I do find it useful that I can push my music project to github and this kind of a backup that will outlive my current PC. This is nice, but we can't really consider it a real backup - because of missing media.
 
 ### Tracking TODO items for your music project in GitHub
 
@@ -101,5 +101,3 @@ Once it's in Github, you can update it from anywhere (GitHub allows you to edit 
 In conclusion, when we inspect this idea of "git for music" a bit closer, we can see that it does have a few viable applications. Yes, this tool is not magical, but still pretty useful!
 
 Thanks for reading.
-
->_By the way, **are you a musician looking for collaboration**? Feel free to drop me a line at grechin.sergey(at)gmail.com! If you are a producer, vocalist, songwriter, we can do stuff together! Starting from cross-checks of our productions to help each other detect mixing glitches, or cross-mastering of our tracks up to releasing something together._
