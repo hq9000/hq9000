@@ -2,7 +2,7 @@ So finally a new release, and this time - 3 real songs featuring me as a lyricis
 
 The three songs are "Passers By", "Closure" and "Talk To Me".
 
-I started working on the album in December 2023, made 6 drafts 3 of which ended up as masters. The release on the platforms happened on the 29th of June. Two mics were bought and adjustments had to be made to my room to ensure adequate recording environment.
+I started working on the album in December 2023, made 6 drafts, 3 of which ended up as masters. The release on the platforms happened on the 29th of June. Two mics were bought and adjustments had to be made to my room to ensure adequate recording environment.
 
 All in all, I'm reasonably satisfied with the results. Which means that I find them quite reflective of my current level.
 
