@@ -1,4 +1,4 @@
-Another release this year, and this time it's three lyrical songs we made with russian vocalist Anastasia Shokhina with be on back vocal. The songs are:
+Another release this year, and this time it's three lyrical songs we made with russian vocalist Anastasia Shokhina with me on back vocal. The songs are:
 
 * Invisible girl
 * Swipe me Right
