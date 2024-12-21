@@ -15,6 +15,7 @@ If you are a producer, vocalist, songwriter, we can do stuff together! Starting 
 <img src="https://i.scdn.co/image/ab67616d00001e027f25e616332550c05ff07948" width="185" />
 
 - [listen on Spotify](https://open.spotify.com/album/60wiorWfBWgyxw5CXgSoot)
+- [listen on YouTube](https://www.youtube.com/watch?v=Ad5R2fVmR48&list=OLAK5uy_nLUpjK-RQ7uEHXrXXYLo0w_aUV2uWa47w&index=1)
 
 ### Passers By album (ClipsAndPatters, 2024)
 
