@@ -10,6 +10,12 @@ If you are a producer, vocalist, songwriter, we can do stuff together! Starting 
 
 ## Releases
 
+### Invisible Girl album feat. Anastasia Shokhina (Cake Music, 2024)
+
+<img src="https://i.scdn.co/image/ab67616d00001e027f25e616332550c05ff07948" width="185" />
+
+- [listen on Spotify](https://open.spotify.com/album/60wiorWfBWgyxw5CXgSoot)
+
 ### Passers By album (ClipsAndPatters, 2024)
 
 <img src="https://i.scdn.co/image/ab67616d00001e02b5d0c18ec4b3c19506dece09" width="185" />
