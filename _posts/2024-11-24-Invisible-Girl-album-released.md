@@ -4,4 +4,7 @@ Another release this year, and this time it's three lyrical songs we made with r
 * Swipe me Right
 * Invisible Girl (Acoustic version)
 
+<img src="https://i.scdn.co/image/ab67616d00001e027f25e616332550c05ff07948" width="185" />
+
+
 Feel free to have a listen on [Spotify](https://open.spotify.com/album/60wiorWfBWgyxw5CXgSoot), [YouTube](https://www.youtube.com/watch?v=Ad5R2fVmR48&list=OLAK5uy_nLUpjK-RQ7uEHXrXXYLo0w_aUV2uWa47w&index=1) or any other platform.
