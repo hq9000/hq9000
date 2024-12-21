@@ -4,11 +4,24 @@ title: ClipsAndPatterns
 
 ClipsAndPatterns is a name of my lifelong music project. On this page I gather all of its notable releases.
 
-**Are you looking for collaboration? Feel free to drop me a line at grechin.sergey(at)gmail.com!** 
+**Are you looking for collaboration? Feel free to drop me a line at grechin.sergey(at)gmail.com!**
 
 If you are a producer, vocalist, songwriter, we can do stuff together! Starting from cross-checks of our productions to help each other detect mixing glitches, or cross-mastering of our tracks up to releasing something together.
 
 ## Releases
+
+### Passers By album (ClipsAndPatters, 2024)
+
+<img src="https://i.scdn.co/image/ab67616d00001e02b5d0c18ec4b3c19506dece09" width="185" />
+
+- [listen on Spotify](https://open.spotify.com/album/3Vgv1cL5Tzb41jnTW5X1Nw)
+
+
+### Inner Dimensions Single (Rebellious, 2023)
+
+<img src="https://i.scdn.co/image/ab67616d00001e029e2433a6823b7777c9449e67" width="185" />
+
+- [listen on Spotify](https://open.spotify.com/track/0fJSta22pRINge6daR4FeC)
 
 
 ### Keep Believing Single (ClipsAndPatterns, 2023)
