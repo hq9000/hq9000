@@ -5,7 +5,7 @@ As a regular Spotify user, I was always a bit frustrated by the lack of the way 
 
 I remember the time when Yandex Music had something similar, but now it's gone. Spotify seems to be not willing to provide this raw feed either. But why? I guess it goes against their goals of having an "average listener" spending as much time on the platform as possible. Sadly, it means that a lot of lesser known producers hardly get a chance to get heard.
 
-So, this new service, which I named, hopefully aptly enough "[Unknown Music](https://unknownmusic.cc)", through the use of Spotify API, maintains a small (a few thousand) selection of albums and randomly presents 8 of them to them to the user. It is by no means a complete feed, but, rather, a hopefully representative sample of new stuff.
+So, this new service, which I named, hopefully aptly enough, "[Unknown Music](https://unknownmusic.cc)", through the use of Spotify API, maintains a small (a few thousand) selection of albums and randomly presents 8 of them to the user. It is by no means a complete feed, but, rather, a hopefully representative sample of new stuff.
 
 Is it actually useful? Well, for me it is, I have already enriched my playlist with quite a few gems that I would have never discovered otherwise. Thus let me invite you to have a look as well!
 
