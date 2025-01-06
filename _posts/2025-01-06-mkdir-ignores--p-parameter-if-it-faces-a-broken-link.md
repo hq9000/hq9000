@@ -1,6 +1,6 @@
 Today I encountered a behavior of `mkdir` which I found a bit surprising.
 
-As you know, `mkdir -p` ignores if directory already exists:
+As you know, `-p` makes `mkdir` ignore if directory already exists:
 
 ```
 -p, --parents
