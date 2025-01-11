@@ -1,3 +1,8 @@
+---
+layout: post
+title: "mkdir ignores -p parameter if it faces a broken link"
+---
+
 Today I encountered a behavior of `mkdir` which I found a bit surprising.
 
 As you know, `-p` makes `mkdir` ignore if directory already exists:
