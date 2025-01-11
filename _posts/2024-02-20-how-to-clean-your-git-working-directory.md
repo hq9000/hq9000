@@ -1,3 +1,8 @@
+---
+title: "How to clean your git working directory"
+date: 2024-02-20
+---
+
 Let me guess: you ended up with tons of untracked files in your working directory.
 Now it's a nightmare to actually see what to stage for your future commit? Correct?
 
@@ -24,11 +29,10 @@ What about staged but not yet commited files? If you have a file in staging area
 $ touch example_to_hide_in_staging.txt
 $ git clean -f -d -n
 Would remove example_to_hide_in_staging.txt
-$ git add example_to_hide_in_staging.txt 
+$ git add example_to_hide_in_staging.txt
 $ git clean -f -d -
 $
 ```
-
 
 Have fun!
 

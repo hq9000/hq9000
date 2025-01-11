@@ -8,9 +8,9 @@ More specifically, my name is Sergey, born in 1982, originally from Russia, now 
 
 I speak English and Russian (and currently just a little German).
 
-I am generally on top of the production techniques, workflow, software, mixing/mastering, though, even after all these years,there are still lots and lots of things for me to learn. I am very much willing to improve and super enjoying learning from people, books and tracks. 
+I am generally on top of the production techniques, workflow, software, mixing/mastering, though, even after all these years,there are still lots and lots of things for me to learn. I am very much willing to improve and super enjoying learning from people, books and tracks.
 
-I do have a formal musical education (8 year musical school), play some piano, some guitar, and used to play violin. One of my far-fetching dreams is to make custom-made software tools for specific projects (that’s another story though). 
+I do have a formal musical education (8 year musical school), play some piano, some guitar, and used to play violin. One of my far-fetching dreams is to make custom-made software tools for specific projects (that’s another story though).
 
 By the way my long term (since 2008) favorite DAW is Reaper. Which is simply awesome!
 
@@ -18,7 +18,7 @@ Currently I am interested such genres as Progressive, Trance, Techno etc. but op
 
 ## My releases
 
-Check them here: 
+Check them here:
 [ClipsAndPatterens releases](https://grechin.org/clipsandpatterns.html)
 
 

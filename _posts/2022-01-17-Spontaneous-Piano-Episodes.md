@@ -2,7 +2,7 @@
 title: Sponetaneous Piano Episodes by ClipsAndPatterns
 ---
 
-With [a friend](https://vk.com/id4908237) who's an owner of an indie 
+With [a friend](https://vk.com/id4908237) who's an owner of an indie
 digital-only recording label, we've recently released my album consisting of seven
 live recorded piano improvisations, named "Spontaneous Piano Episodes".
 

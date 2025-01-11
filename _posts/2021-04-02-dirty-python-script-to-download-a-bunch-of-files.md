@@ -1,8 +1,13 @@
+---
+layout: post
+title: "Dirty Python Script to Download a Bunch of Files"
+---
+
 It's widely known that Python is perfect (among other things) for writing a one-off disposable scripts for doing dirty tasks.
 
 Today I found myself in need of downloading a bunch of files (several hundreds) from the internet and saving them locally. I had a two columns table in google docs which I copy-pasted into a `txt` file (column delimiter turned into a `\t` symbol).
 
-Instead of doing it manually, I chose to write a short script. 
+Instead of doing it manually, I chose to write a short script.
 
 In its entirety (including parsing command line args, logging setup), the script turned out to be 32 lines long and it illustrates the following concepts:
 

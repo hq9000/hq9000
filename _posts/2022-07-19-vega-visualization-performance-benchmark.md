@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Vega Visualization Performance benchmark
---- 
+---
 
 ## Table of contents
 
@@ -30,11 +31,11 @@ The spec/data generator - a Python program used to set up the experiments, is [h
 
 ## What is Vega
 
-Vega is a "visualization grammar", essentially, a specification language and a JavaScript library to interpret this grammar (both in browser and server-side). Vega allows creating interactive graphs, called "visualizations", in a declarative way. Declarative here means requiring no coding in traditional sense, we only write a JSON specification. For example, the picture above is a result of rendering [this specification](https://grechin.org/articles/vega_performance/generated/specs/01_points-1000_format-json_categories-14_attributes-2_renderer-canvas_spec.json). 
+Vega is a "visualization grammar", essentially, a specification language and a JavaScript library to interpret this grammar (both in browser and server-side). Vega allows creating interactive graphs, called "visualizations", in a declarative way. Declarative here means requiring no coding in traditional sense, we only write a JSON specification. For example, the picture above is a result of rendering [this specification](https://grechin.org/articles/vega_performance/generated/specs/01_points-1000_format-json_categories-14_attributes-2_renderer-canvas_spec.json).
 
 Vega is widely used in scientific and business circles and has a thriving community, [great documentation](https://vega.github.io/vega/docs/) and [tutorials](https://vega.github.io/vega/tutorials/).
 
-The "grammar" is far from trivial, but once you get a hang of it, creating graphs can be relatively painless and even enjoyable process. The docs are extremely helpful and definitely worth checking out. 
+The "grammar" is far from trivial, but once you get a hang of it, creating graphs can be relatively painless and even enjoyable process. The docs are extremely helpful and definitely worth checking out.
 There is also a simplified version of the framework called ["Vega Lite"](https://vega.github.io/vega-lite/)
 
 
@@ -57,7 +58,7 @@ For reasonably sized datasets (the definition of "reasonably" is, in fact, the m
 
 ## Benchmark
 
-Keeping the above in mind, I got curious about how far we can actually push it until it gets unusable. Knowing some ballpark figures might help me and others to quickly get some rough idea whether client-side Vega will work in a particular use case. 
+Keeping the above in mind, I got curious about how far we can actually push it until it gets unusable. Knowing some ballpark figures might help me and others to quickly get some rough idea whether client-side Vega will work in a particular use case.
 
 To answer this question, a simple spec of a scatter plot showing multi-attribute datapoints was created using a [programmatic generator](https://github.com/hq9000/vis-study).
 
@@ -81,11 +82,11 @@ giving us in total 4 * 2 * 2 = 16 different experiments. You can find and check 
 
 ## Observations
 
-Here I describe my experiences and conclusions after testing the graphs in my setup: Linux, Chrome, a decent i5-based laptop 
+Here I describe my experiences and conclusions after testing the graphs in my setup: Linux, Chrome, a decent i5-based laptop
 
 ### One thousand datapoints
 
-I have no problems at all interacting with the visualization when dataset size is at 1000. 
+I have no problems at all interacting with the visualization when dataset size is at 1000.
 
 Neither do I perceive any difference when using `canvas` or `svg` as a renderer.
 
@@ -113,8 +114,8 @@ At 10k it gets a little hot. Although the rendering itself takes quite reasonabl
 ### Thirty thousand datapoints
 * <a href="https://grechin.org/articles/vega_performance/generated/04_points-30000_format-json_categories-14_attributes-2_renderer-canvas.html" target="_blank">vega with 30k datapoints and canvas renderer</a>
 * [vega with 30k datapoints and svg renderer](https://grechin.org/articles/vega_performance/generated/12_points-30000_format-json_categories-14_attributes-2_renderer-svg.html)
-    
-well, they both still work, I would say. They show me the picture without waiting time being unbearable (though it does give a sluggish impression). With `svg` renderer, I see "hover" working unreliably (not showing anything sometimes). Hovering in `canvas`-based graph is more reliable but the delay is very high, up to the point of making it unusable.  
+
+well, they both still work, I would say. They show me the picture without waiting time being unbearable (though it does give a sluggish impression). With `svg` renderer, I see "hover" working unreliably (not showing anything sometimes). Hovering in `canvas`-based graph is more reliable but the delay is very high, up to the point of making it unusable.
 
 All in all, I think that 30k is already too much for Vega to handle.
 
@@ -137,7 +138,7 @@ and we would want all three to be satisfied at the same time.
 
 I would say, based on the experiments performed, the sweet spot is somewhere around 10 000 datapoints. Anything above, although somewhat workable, at least up to 30k, is already not too comfortable to interact with.
 
-The most surprising discovery for me was that `svg` renderer does not show any immediately obvious inferiority in comparison with `canvas`, and in some respects and on certain data sizes, delivers, in fact, better performance (I'm referring to hover behaviour at 10k). 
+The most surprising discovery for me was that `svg` renderer does not show any immediately obvious inferiority in comparison with `canvas`, and in some respects and on certain data sizes, delivers, in fact, better performance (I'm referring to hover behaviour at 10k).
 
 Another noteworthy finding is that there is no noticeable performance difference when using `csv` or `json` as data format.
 

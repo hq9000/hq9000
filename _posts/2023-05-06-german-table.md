@@ -1,4 +1,5 @@
 ---
+layout: post
 title: German articles and adjective endings in one table
 ---
 

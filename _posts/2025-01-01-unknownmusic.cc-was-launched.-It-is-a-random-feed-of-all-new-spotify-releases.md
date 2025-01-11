@@ -1,3 +1,8 @@
+---
+title: "UnknownMusic.cc was launched: A random feed of all new Spotify releases"
+date: 2025-01-01
+---
+
 Recently, I had a bit of spare time and thus was able to complete something that was on my mind for quite a while.
 It is a website, where you can [discover new releases of lesser known artists of recent years](https://unknownmusic.cc).
 

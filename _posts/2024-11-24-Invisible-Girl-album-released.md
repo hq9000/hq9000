@@ -1,3 +1,8 @@
+---
+title: "Invisible Girl album released"
+date: 2024-11-24
+---
+
 Another release this year, and this time it's three lyrical songs we made with russian vocalist Anastasia Shokhina with me on back vocal. The songs are:
 
 * Invisible girl

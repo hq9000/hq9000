@@ -1,3 +1,7 @@
+---
+layout: post
+title: Adding Google Analytics to Minima
+---
 
 update 2024-02-17: After working fine, it broke. The stats stopped being gathered. The reason is breaking migration, in 2023, I guess, of Google Analytics to newer tag format.
 
@@ -36,7 +40,7 @@ In my case, all I had to do was adding this line:
 google_analytics: XXXXXX
 ```
 
-into `_config.yml`, where XXXXX is my tracking code. [See it here](https://github.com/hq9000/hq9000/blob/6164401661334373e9584e5524bd38b8400c7183/_config.yml#L28) 
+into `_config.yml`, where XXXXX is my tracking code. [See it here](https://github.com/hq9000/hq9000/blob/6164401661334373e9584e5524bd38b8400c7183/_config.yml#L28)
 
 The hardest part was actually to find that tracking code in my GA account. In the end, I found it in "Admin" area, where it's called `Measurement ID`:
 

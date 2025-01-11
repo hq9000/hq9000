@@ -1,4 +1,6 @@
 ---
+layout: post
+title: Building style-aware neural MIDI synthesizers using simplified differentiable DSP approach
 permalink: /neural_synthesizers_with_simplified_ddsp.html
 ---
 
@@ -44,8 +46,8 @@ here we have a minor triad played four times, second two one octave higher. The 
 
 listen: [test_midi_longer_open_closed.mid.mp3](https://raw.githubusercontent.com/hq9000/hq9000/drmn16/articles/dmrn16/audio_examples/test_midi_longer_open_closed.mp3)
 
-here we again have a minor triad played four times with longer notes, second two one octave higher. Note that the 1st and the 3rd are played with an "open" sound (CC55=127), 
-and the rest are played with "muted" sound 
+here we again have a minor triad played four times with longer notes, second two one octave higher. Note that the 1st and the 3rd are played with an "open" sound (CC55=127),
+and the rest are played with "muted" sound
 (CC55=0).
 
 ## Source Code
