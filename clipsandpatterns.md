@@ -12,6 +12,12 @@ If you are a producer, vocalist, songwriter, we can do stuff together! Starting 
 
 ### Invisible Girl album feat. Anastasia Shokhina (Cake Music, 2024)
 
+Another release this year, and this time it's three lyrical songs we made with russian vocalist Anastasia Shokhina with me on back vocal. The songs are:
+
+* Invisible girl
+* Swipe me Right
+* Invisible Girl (Acoustic version)
+
 <img src="https://i.scdn.co/image/ab67616d00001e027f25e616332550c05ff07948" width="185" />
 
 - [listen on Spotify](https://open.spotify.com/album/60wiorWfBWgyxw5CXgSoot)
@@ -20,6 +26,8 @@ If you are a producer, vocalist, songwriter, we can do stuff together! Starting 
 ### Passers By album (ClipsAndPatters, 2024)
 
 <img src="https://i.scdn.co/image/ab67616d00001e02b5d0c18ec4b3c19506dece09" width="185" />
+
+So finally a new release, and this time - 3 real songs featuring me as a lyricist, a vocalist, composer and like 5 different other production roles.
 
 - [listen on Spotify](https://open.spotify.com/album/3Vgv1cL5Tzb41jnTW5X1Nw)
 
