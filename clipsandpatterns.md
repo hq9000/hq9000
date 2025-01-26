@@ -18,21 +18,14 @@ Another release this year, and this time it's three lyrical songs we made with r
 * Swipe me Right
 * Invisible Girl (Acoustic version)
 
-<img src="https://i.scdn.co/image/ab67616d00001e027f25e616332550c05ff07948" width="185" />
-
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/60wiorWfBWgyxw5CXgSoot?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-- [listen on Spotify](https://open.spotify.com/album/60wiorWfBWgyxw5CXgSoot)
 - [listen on YouTube](https://www.youtube.com/watch?v=Ad5R2fVmR48&list=OLAK5uy_nLUpjK-RQ7uEHXrXXYLo0w_aUV2uWa47w&index=1)
 
 ### Passers By album (ClipsAndPatters, 2024)
 
-<img src="https://i.scdn.co/image/ab67616d00001e02b5d0c18ec4b3c19506dece09" width="185" />
+So finally a new release, now the album named "Passers By", and this time - 3 real songs featuring me as a lyricist, a vocalist, composer and like 5 different other production roles.
 
-So finally a new release, and this time - 3 real songs featuring me as a lyricist, a vocalist, composer and like 5 different other production roles.
-
-- [listen on Spotify](https://open.spotify.com/album/3Vgv1cL5Tzb41jnTW5X1Nw)
-
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3Vgv1cL5Tzb41jnTW5X1Nw?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 ### Inner Dimensions Single (Rebellious, 2023)
 
