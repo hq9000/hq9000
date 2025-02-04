@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Welcome to my blog
+title: About
 ---
 
 Hi, I'm Sergey Grechin, a yet another tech guy, software developer, and machine learning practitioner from Russia.
