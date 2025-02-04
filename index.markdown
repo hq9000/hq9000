@@ -1,7 +1,3 @@
----
-title: About
----
-
 Hi, I'm Sergey Grechin, a yet another tech guy, musician, software developer, and machine learning practitioner from Russia/Germany. This is my blog where I infrequently put notes and updates about things happening in my life.
 
 * [a page about my music project called "ClipsAndPatterns"](https://grechin.org/clipsandpatterns.html)
