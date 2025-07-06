@@ -10,6 +10,14 @@ If you are a producer, vocalist, songwriter, we can do stuff together! Starting 
 
 ## Releases
 
+### Shiny Glamorous Life (Cake Music, 2025)
+New release at Cake Music. Two electronic tracks:
+
+1. Shiny Glamorous Life
+2. Observation
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0Hi9h6ZaB02k145gIFGxLo?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 ### Invisible Girl album feat. Anastasia Shokhina (Cake Music, 2024)
 
 Another release this year, and this time it's three lyrical songs we made with russian vocalist Anastasia Shokhina with me on back vocal. The songs are:
