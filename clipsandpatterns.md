@@ -18,6 +18,8 @@ New release at Cake Music. Two electronic tracks:
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0Hi9h6ZaB02k145gIFGxLo?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
+[also on YouTube](https://www.youtube.com/watch?v=2gVxGZGw05U&list=OLAK5uy_nwlBRQCnvObeIRl7zK3CD_SP94x1uw2C0)
+
 ### Invisible Girl album feat. Anastasia Shokhina (Cake Music, 2024)
 
 Another release this year, and this time it's three lyrical songs we made with russian vocalist Anastasia Shokhina with me on back vocal. The songs are:
