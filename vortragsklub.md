@@ -1,3 +1,7 @@
+---
+title: Vortragsklub
+---
+
 # Vortragsklub. Est. 2025. Learn German beyond C1/C2, for free!
 
 <img src="https://github.com/user-attachments/assets/3ae89e21-ff90-48aa-8d19-61f7343241f2" />
