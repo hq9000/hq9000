@@ -51,16 +51,6 @@ my config.json in `config` was:
 
 the reason apparenly is that it reads the `config.json` without being asked and THEN AGAIN reads it because I have provided it with -config.
 
-```
-docker run --rm --cap-add=IPC_LOCK \
-  -e 'VAULT_DEV_ROOT_TOKEN_ID=root' \
-  -p 8200:8200 \
-  -v "$PWD/data:/vault/file" \
-  -v "$PWD/config:/vault/config" \
-  --name=vault-dev \
-  hashicorp/vault:1.21 server
-```
-
 so the solution in my case was to remove `-config=/vault/config/config.json` part:
 
 ```
@@ -70,7 +60,7 @@ docker run --rm --cap-add=IPC_LOCK \
   -v "$PWD/data:/vault/file" \
   -v "$PWD/config:/vault/config" \
   --name=vault-dev \
-  hashicorp/vault:1.21 server -config=/vault/config/config.json
+  hashicorp/vault:1.21 server
 ```
 
 I hope it helps someone safe a bit of precious lifetime.
