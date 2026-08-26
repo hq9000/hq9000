@@ -63,5 +63,5 @@ docker run --rm --cap-add=IPC_LOCK \
   hashicorp/vault:1.21 server
 ```
 
-I hope it helps someone safe a bit of precious lifetime.
+I hope it helps someone save a bit of precious lifetime.
 
