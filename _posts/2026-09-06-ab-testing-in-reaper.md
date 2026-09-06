@@ -24,8 +24,8 @@ Bonus tip: if you put an instance of meter plugin (such as JS Loudness Meter) af
 
 Now a few screenshots:
 
-<img width="488" height="205" alt="Image" src="https://github.com/user-attachments/assets/22a35023-6fb3-4744-99a0-80572eda5242" />
+<img alt="Image" src="https://github.com/user-attachments/assets/22a35023-6fb3-4744-99a0-80572eda5242" />
 
-<img width="1835" height="368" alt="Image" src="https://github.com/user-attachments/assets/4a6ff81c-3b32-400d-b2a1-3370b907257f" />
+<img alt="Image" src="https://github.com/user-attachments/assets/4a6ff81c-3b32-400d-b2a1-3370b907257f" />
 
 
