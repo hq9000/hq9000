@@ -20,7 +20,7 @@ I do it in Reaper the following way:
 - we set it up so that "A" corresponds to channel 1/2 and "B" to channel 3/4.
 <img alt="Image" src="https://github.com/user-attachments/assets/22a35023-6fb3-4744-99a0-80572eda5242" />
 - now, essentially, we have a crossfader, which in position A gives you your mix, and in B - the reference
-- now by moving the toggle left and right with a mouse, we can smoothly transit between source, and this is how our deviations from reference become very easy to see.
+- now by moving the toggle left and right with a mouse, we can smoothly transition across sources, and this is how our deviations from reference become very easy to hear.
 
 Bonus tip: if you put an instance of meter plugin (such as JS Loudness Meter) after SwixMitch, you will be able to compare quantifiable parameters of your mix such as LUFS and RMS.
 
